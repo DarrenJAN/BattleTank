@@ -569,3 +569,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.18-06.12.23:307][  7]LogAssetRegistry: Asset discovery search completed in 16.3513 seconds
 [2020.03.18-06.12.23:313][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2020.03.18-06.12.23:314][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000588 seconds (updated 0 objects)
+[2020.03.18-06.13.24:721][ 88]LogSlate: Window 'Details' being destroyed
+[2020.03.18-06.13.24:723][ 88]LogSlate: Window 'Details' being destroyed
+[2020.03.18-06.15.05:484][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
