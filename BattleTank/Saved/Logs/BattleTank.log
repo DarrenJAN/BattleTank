@@ -1440,3 +1440,740 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.22-19.28.17:782][598]LogFileHelpers: Saving map 'BattleGround' took 0.925
 [2020.03.22-19.28.19:837][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu_BP" FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/UI/MainMenu_BP.uasset" SILENT=true
 [2020.03.22-19.28.19:859][841]LogSavePackage: Moving '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Saved/MainMenu_BPB6DEEED647DF54C266E3349AE04D297A.tmp' to '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/UI/MainMenu_BP.uasset'
+[2020.03.22-19.29.02:406][555]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.29.02:408][555]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MainMenu.MainMenu
+[2020.03.22-19.29.02:496][555]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2020.03.22-19.29.02:499][555]Cmd: MAP LOAD FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.22-19.29.02:499][555]LightingResults: New page: Lighting Build
+[2020.03.22-19.29.02:500][555]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.03.22-19.29.02:501][555]MapCheck: New page: Map Check
+[2020.03.22-19.29.02:501][555]LightingResults: New page: Lighting Build
+[2020.03.22-19.29.02:591][555]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2020.03.22-19.29.02:600][555]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.22-19.29.02:634][555]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.03.22-19.29.02:668][555]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.22-19.29.02:668][555]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.098ms to complete.
+[2020.03.22-19.29.02:668][555]LogFileHelpers: Loading map 'MainMenu' took 0.172
+[2020.03.22-19.29.04:276][729]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.22-19.29.04:302][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.04:302][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-19.29.04:302][729]PIE: New page: PIE session: MainMenu (Mar 22, 2020, 11:29:04 AM)
+[2020.03.22-19.29.04:302][729]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2020.03.22-19.29.04:304][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001038s)
+[2020.03.22-19.29.04:304][729]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.29.04:304][729]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2020.03.22-19.29.04:304][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001730s)
+[2020.03.22-19.29.04:335][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.03.22-19.29.04:359][729]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.22-19.29.04:372][729]LogInit: FAudioDevice initialized.
+[2020.03.22-19.29.04:399][729]LogLoad: Game class is 'GameModeBase'
+[2020.03.22-19.29.04:400][729]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.03.22-15.29.04
+[2020.03.22-19.29.04:400][729]LogWorld: Bringing up level for play took: 0.000352
+[2020.03.22-19.29.04:414][729]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.27
+[2020.03.22-19.29.04:414][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.05:376][842]LogNet: Browse: /Game/Levels/BattleGround
+[2020.03.22-19.29.05:376][842]LogLoad: LoadMap: /Game/Levels/BattleGround
+[2020.03.22-19.29.05:407][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.03.22-19.29.06:085][842]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.29.06:086][842]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.03.22-19.29.06:207][842]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.03.22-15.29.06
+[2020.03.22-19.29.06:207][842]LogWorld: Bringing up level for play took: 0.120385
+[2020.03.22-19.29.06:209][842]LogLoad: Took 0.833430 seconds to LoadMap(/Game/Levels/BattleGround)
+[2020.03.22-19.29.11:663][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.11:663][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.29.11:696][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-19.29.11:696][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.11:730][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.29.11:737][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.03.22-19.29.11:764][483]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2020.03.22-19.29.13:341][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.29.13:482][687]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.22-19.29.13:498][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.13:498][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-19.29.13:498][687]PIE: New page: PIE session: MainMenu (Mar 22, 2020, 11:29:13 AM)
+[2020.03.22-19.29.13:498][687]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2020.03.22-19.29.13:499][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001092s)
+[2020.03.22-19.29.13:499][687]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.29.13:500][687]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2020.03.22-19.29.13:500][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001767s)
+[2020.03.22-19.29.13:530][687]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2020.03.22-19.29.13:553][687]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.22-19.29.13:566][687]LogInit: FAudioDevice initialized.
+[2020.03.22-19.29.13:597][687]LogLoad: Game class is 'GameModeBase'
+[2020.03.22-19.29.13:598][687]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.03.22-15.29.13
+[2020.03.22-19.29.13:598][687]LogWorld: Bringing up level for play took: 0.000377
+[2020.03.22-19.29.13:612][687]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.531
+[2020.03.22-19.29.13:612][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.14:610][806]LogNet: Browse: /Game/Levels/BattleGround
+[2020.03.22-19.29.14:610][806]LogLoad: LoadMap: /Game/Levels/BattleGround
+[2020.03.22-19.29.14:645][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.03.22-19.29.14:722][806]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.29.14:722][806]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.03.22-19.29.14:735][806]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.03.22-15.29.14
+[2020.03.22-19.29.14:736][806]LogWorld: Bringing up level for play took: 0.012835
+[2020.03.22-19.29.14:738][806]LogLoad: Took 0.127798 seconds to LoadMap(/Game/Levels/BattleGround)
+[2020.03.22-19.29.23:896][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.29.31:044][623]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.31:044][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.29.31:079][623]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-19.29.31:080][623]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.31:112][623]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.29.31:118][623]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.03.22-19.29.31:159][624]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2020.03.22-19.29.31:937][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.29.32:028][727]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.22-19.29.32:042][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.32:042][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-19.29.32:042][727]PIE: New page: PIE session: MainMenu (Mar 22, 2020, 11:29:32 AM)
+[2020.03.22-19.29.32:043][727]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2020.03.22-19.29.32:044][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000999s)
+[2020.03.22-19.29.32:045][727]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.29.32:045][727]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2020.03.22-19.29.32:045][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.002330s)
+[2020.03.22-19.29.32:075][727]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.03.22-19.29.32:096][727]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.22-19.29.32:106][727]LogInit: FAudioDevice initialized.
+[2020.03.22-19.29.32:135][727]LogLoad: Game class is 'GameModeBase'
+[2020.03.22-19.29.32:136][727]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.03.22-15.29.32
+[2020.03.22-19.29.32:136][727]LogWorld: Bringing up level for play took: 0.000320
+[2020.03.22-19.29.32:149][727]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.006
+[2020.03.22-19.29.32:150][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.33:023][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.29.33:132][844]LogNet: Browse: /Game/Levels/BattleGround
+[2020.03.22-19.29.33:132][844]LogLoad: LoadMap: /Game/Levels/BattleGround
+[2020.03.22-19.29.33:165][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.03.22-19.29.33:239][844]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.29.33:239][844]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.03.22-19.29.33:251][844]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.03.22-15.29.33
+[2020.03.22-19.29.33:252][844]LogWorld: Bringing up level for play took: 0.011571
+[2020.03.22-19.29.33:254][844]LogLoad: Took 0.121840 seconds to LoadMap(/Game/Levels/BattleGround)
+[2020.03.22-19.29.34:902][ 34]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.34:902][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.29.34:933][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-19.29.34:934][ 34]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.29.34:969][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.29.34:975][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.03.22-19.29.35:003][ 37]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2020.03.22-19.33.18:455][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.33.19:526][ 11]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.22-19.33.19:543][ 11]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.33.19:544][ 11]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-19.33.19:544][ 11]PIE: New page: PIE session: MainMenu (Mar 22, 2020, 11:33:19 AM)
+[2020.03.22-19.33.19:544][ 11]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2020.03.22-19.33.19:545][ 11]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001088s)
+[2020.03.22-19.33.19:546][ 11]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.33.19:546][ 11]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2020.03.22-19.33.19:546][ 11]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.002006s)
+[2020.03.22-19.33.19:578][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.03.22-19.33.19:599][ 11]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.22-19.33.19:611][ 11]LogInit: FAudioDevice initialized.
+[2020.03.22-19.33.19:646][ 11]LogLoad: Game class is 'GameModeBase'
+[2020.03.22-19.33.19:647][ 11]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.03.22-15.33.19
+[2020.03.22-19.33.19:647][ 11]LogWorld: Bringing up level for play took: 0.000391
+[2020.03.22-19.33.19:661][ 11]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu -0.482
+[2020.03.22-19.33.19:661][ 11]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.33.20:524][113]LogNet: Browse: /Game/Levels/BattleGround
+[2020.03.22-19.33.20:524][113]LogLoad: LoadMap: /Game/Levels/BattleGround
+[2020.03.22-19.33.20:556][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.03.22-19.33.20:627][113]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.33.20:628][113]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.03.22-19.33.20:637][113]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.03.22-15.33.20
+[2020.03.22-19.33.20:637][113]LogWorld: Bringing up level for play took: 0.008778
+[2020.03.22-19.33.20:644][113]LogLoad: Took 0.120392 seconds to LoadMap(/Game/Levels/BattleGround)
+[2020.03.22-19.33.23:727][467]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.33.23:727][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.33.23:763][467]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-19.33.23:764][467]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.33.23:833][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.33.23:846][467]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.03.22-19.33.23:861][468]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2020.03.22-19.33.25:427][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.33.26:267][726]LogAssetEditorManager: Opening Asset editor for MapBuildDataRegistry /Game/Levels/BattleGround_BuiltData.BattleGround_BuiltData
+[2020.03.22-19.33.28:514][981]LogSlate: Window 'BattleGround_BuiltData' being destroyed
+[2020.03.22-19.33.28:518][981]LogSlate: Window 'BattleGround_BuiltData' being destroyed
+[2020.03.22-19.33.29:847][118]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.33.29:887][118]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/BattleGround.BattleGround
+[2020.03.22-19.33.29:918][118]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.03.22-19.33.29:919][118]Cmd: MAP LOAD FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.22-19.33.29:919][118]LightingResults: New page: Lighting Build
+[2020.03.22-19.33.29:920][118]LoadErrors: New page: Loading map: BattleGround.umap
+[2020.03.22-19.33.29:920][118]MapCheck: New page: Map Check
+[2020.03.22-19.33.29:920][118]LightingResults: New page: Lighting Build
+[2020.03.22-19.33.29:953][118]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.03.22-19.33.30:422][118]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.22-19.33.30:455][118]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.03.22-19.33.30:483][118]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.22-19.33.30:483][118]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
+[2020.03.22-19.33.30:483][118]LogFileHelpers: Loading map 'BattleGround' took 0.566
+[2020.03.22-19.33.31:323][206]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.22-19.33.31:339][206]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.33.31:339][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-19.33.31:339][206]PIE: New page: PIE session: BattleGround (Mar 22, 2020, 11:33:31 AM)
+[2020.03.22-19.33.31:340][206]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.03.22-19.33.31:435][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095248s)
+[2020.03.22-19.33.31:435][206]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.33.31:436][206]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2020.03.22-19.33.31:436][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (0.096031s)
+[2020.03.22-19.33.31:468][206]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.03.22-19.33.31:490][206]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.22-19.33.31:501][206]LogInit: FAudioDevice initialized.
+[2020.03.22-19.33.31:533][206]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.03.22-19.33.31:536][206]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.03.22-15.33.31
+[2020.03.22-19.33.31:536][206]LogWorld: Bringing up level for play took: 0.002567
+[2020.03.22-19.33.31:550][206]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround -0.593
+[2020.03.22-19.33.31:550][206]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.33.35:728][695]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.33.35:729][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.33.35:760][695]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-19.33.35:760][695]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.33.35:793][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.33.35:798][695]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.03.22-19.33.35:853][697]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2020.03.22-19.33.36:422][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.33.37:854][896]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.33.37:856][896]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MainMenu.MainMenu
+[2020.03.22-19.33.37:888][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2020.03.22-19.33.37:890][896]Cmd: MAP LOAD FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.22-19.33.37:890][896]LightingResults: New page: Lighting Build
+[2020.03.22-19.33.37:890][896]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.03.22-19.33.37:892][896]MapCheck: New page: Map Check
+[2020.03.22-19.33.37:892][896]LightingResults: New page: Lighting Build
+[2020.03.22-19.33.37:929][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.03.22-19.33.37:930][896]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.22-19.33.37:962][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.03.22-19.33.38:012][896]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.22-19.33.38:012][896]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.118ms to complete.
+[2020.03.22-19.33.38:012][896]LogFileHelpers: Loading map 'MainMenu' took 0.124
+[2020.03.22-19.33.38:949][995]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.22-19.33.38:964][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.33.38:964][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-19.33.38:964][995]PIE: New page: PIE session: MainMenu (Mar 22, 2020, 11:33:38 AM)
+[2020.03.22-19.33.38:964][995]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2020.03.22-19.33.38:965][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000914s)
+[2020.03.22-19.33.38:965][995]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.33.38:965][995]LogPlayLevel: PIE: World Init took: (0.000490s)
+[2020.03.22-19.33.38:965][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001526s)
+[2020.03.22-19.33.38:996][995]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.03.22-19.33.39:018][995]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.22-19.33.39:029][995]LogInit: FAudioDevice initialized.
+[2020.03.22-19.33.39:063][995]LogLoad: Game class is 'GameModeBase'
+[2020.03.22-19.33.39:063][995]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.03.22-15.33.39
+[2020.03.22-19.33.39:064][995]LogWorld: Bringing up level for play took: 0.000299
+[2020.03.22-19.33.39:077][995]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.934
+[2020.03.22-19.33.39:077][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.33.39:912][ 92]LogNet: Browse: /Game/Levels/BattleGround
+[2020.03.22-19.33.39:912][ 92]LogLoad: LoadMap: /Game/Levels/BattleGround
+[2020.03.22-19.33.39:943][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.03.22-19.33.40:047][ 92]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.33.40:048][ 92]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.03.22-19.33.40:056][ 92]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.03.22-15.33.40
+[2020.03.22-19.33.40:056][ 92]LogWorld: Bringing up level for play took: 0.008195
+[2020.03.22-19.33.40:059][ 92]LogLoad: Took 0.146945 seconds to LoadMap(/Game/Levels/BattleGround)
+[2020.03.22-19.33.42:711][397]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.33.42:712][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.33.42:749][397]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-19.33.42:749][397]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.33.42:785][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.33.42:794][397]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.03.22-19.33.42:820][399]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2020.03.22-19.35.51:614][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.35.54:242][428]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2020.03.22-19.36.01:638][225]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2020.03.22-19.36.11:337][ 47]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/UI/MainMenu.MainMenu
+[2020.03.22-19.36.17:582][770]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/MainMenu_BP.MainMenu_BP
+[2020.03.22-19.37.23:565][512]BlueprintLog: New page: Compile MainMenu_BP
+[2020.03.22-19.37.23:612][512]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2020.03.22-19.37.24:116][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu_BP" FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/UI/MainMenu_BP.uasset" SILENT=true
+[2020.03.22-19.37.24:142][568]LogSavePackage: Moving '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Saved/MainMenu_BP5B86BB8F46B38D6C9E53F6A5EF37A95C.tmp' to '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/UI/MainMenu_BP.uasset'
+[2020.03.22-19.37.26:492][840]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.22-19.37.26:510][840]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.37.26:510][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-19.37.26:510][840]PIE: New page: PIE session: MainMenu (Mar 22, 2020, 11:37:26 AM)
+[2020.03.22-19.37.26:510][840]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2020.03.22-19.37.26:511][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001031s)
+[2020.03.22-19.37.26:512][840]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.37.26:512][840]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2020.03.22-19.37.26:512][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001762s)
+[2020.03.22-19.37.26:549][840]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.03.22-19.37.26:570][840]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.22-19.37.26:581][840]LogInit: FAudioDevice initialized.
+[2020.03.22-19.37.26:613][840]LogLoad: Game class is 'GameModeBase'
+[2020.03.22-19.37.26:614][840]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2020.03.22-15.37.26
+[2020.03.22-19.37.26:614][840]LogWorld: Bringing up level for play took: 0.000366
+[2020.03.22-19.37.26:628][840]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.485
+[2020.03.22-19.37.26:628][840]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.37.27:412][933]LogNet: Browse: /Game/Levels/BattleGround
+[2020.03.22-19.37.27:412][933]LogLoad: LoadMap: /Game/Levels/BattleGround
+[2020.03.22-19.37.27:447][933]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.03.22-19.37.27:522][933]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.37.27:522][933]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.03.22-19.37.27:533][933]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.03.22-15.37.27
+[2020.03.22-19.37.27:534][933]LogWorld: Bringing up level for play took: 0.010807
+[2020.03.22-19.37.27:537][933]LogLoad: Took 0.125057 seconds to LoadMap(/Game/Levels/BattleGround)
+[2020.03.22-19.37.31:213][366]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.37.31:213][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.37.31:247][366]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-19.37.31:247][366]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2020.03.22-19.37.31:285][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.37.31:293][366]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.03.22-19.37.31:316][367]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2020.03.22-19.37.53:656][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.37.59:994][308]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.38.00:034][308]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/BattleGround.BattleGround
+[2020.03.22-19.38.00:073][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.45ms
+[2020.03.22-19.38.00:075][308]Cmd: MAP LOAD FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.22-19.38.00:075][308]LightingResults: New page: Lighting Build
+[2020.03.22-19.38.00:076][308]LoadErrors: New page: Loading map: BattleGround.umap
+[2020.03.22-19.38.00:127][308]MapCheck: New page: Map Check
+[2020.03.22-19.38.00:127][308]LightingResults: New page: Lighting Build
+[2020.03.22-19.38.00:161][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.03.22-19.38.00:229][308]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.22-19.38.00:264][308]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.03.22-19.38.00:293][308]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.22-19.38.00:293][308]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
+[2020.03.22-19.38.00:293][308]LogFileHelpers: Loading map 'BattleGround' took 0.219
+[2020.03.22-19.38.02:564][436]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.03.22-19.38.14:695][736]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.03.22-19.38.32:380][535]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.22-19.38.32:385][535]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.22-19.38.33:031][605]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.22-19.38.33:051][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.38.33:051][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-19.38.33:051][605]PIE: New page: PIE session: BattleGround (Mar 22, 2020, 11:38:33 AM)
+[2020.03.22-19.38.33:052][605]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.03.22-19.38.33:148][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096862s)
+[2020.03.22-19.38.33:149][605]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.38.33:149][605]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2020.03.22-19.38.33:149][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (0.097797s)
+[2020.03.22-19.38.33:184][605]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.03.22-19.38.33:207][605]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.22-19.38.33:217][605]LogInit: FAudioDevice initialized.
+[2020.03.22-19.38.33:249][605]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.03.22-19.38.33:252][605]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.03.22-15.38.33
+[2020.03.22-19.38.33:252][605]LogWorld: Bringing up level for play took: 0.002894
+[2020.03.22-19.38.33:267][605]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround 1.124
+[2020.03.22-19.38.33:267][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.38.35:477][864]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.38.35:477][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.38.35:511][864]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-19.38.35:511][864]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.38.35:548][864]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.38.35:552][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.03.22-19.38.35:579][865]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2020.03.22-19.38.37:249][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.22-19.38.38:000][140]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.22-19.38.38:927][140]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.03.22-19.38.54:250][499]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.22-19.38.54:253][499]LogSlate: Window 'Project Settings' being destroyed
+[2020.03.22-19.38.55:568][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.38.55:669][661]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.22-19.38.55:688][661]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.38.55:688][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.22-19.38.55:688][661]PIE: New page: PIE session: BattleGround (Mar 22, 2020, 11:38:55 AM)
+[2020.03.22-19.38.55:688][661]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.03.22-19.38.55:778][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089928s)
+[2020.03.22-19.38.55:779][661]LogAIModule: Creating AISystem for world BattleGround
+[2020.03.22-19.38.55:779][661]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2020.03.22-19.38.55:779][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (0.090771s)
+[2020.03.22-19.38.55:814][661]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.03.22-19.38.55:836][661]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.22-19.38.55:846][661]LogInit: FAudioDevice initialized.
+[2020.03.22-19.38.55:875][661]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.03.22-19.38.55:878][661]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.03.22-15.38.55
+[2020.03.22-19.38.55:878][661]LogWorld: Bringing up level for play took: 0.002842
+[2020.03.22-19.38.55:893][661]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround -0.25
+[2020.03.22-19.38.55:893][661]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.38.57:993][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.38.57:993][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.38.58:029][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.22-19.38.58:029][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.03.22-19.38.58:063][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.22-19.38.58:068][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.03.22-19.38.58:122][901]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2020.03.22-19.38.59:383][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.38.59:470][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BattleGround" FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.03.22-19.38.59:504][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.03.22-19.39.00:702][ 60]LogSavePackage: Moving '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Saved/BattleGround5AE0D09649731AEE7267908FC9F2189A.tmp' to '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap'
+[2020.03.22-19.39.00:772][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BattleGround_BuiltData" FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround_BuiltData.uasset" SILENT=true
+[2020.03.22-19.39.03:651][ 60]LogSavePackage: Moving '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Saved/BattleGround_BuiltData6D89BECA4895FE11285F268C96AABCC8.tmp' to '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround_BuiltData.uasset'
+[2020.03.22-19.44.41:714][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.44.46:221][604]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.44.46:223][604]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MainMenu.MainMenu
+[2020.03.22-19.44.46:260][604]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.03.22-19.44.46:262][604]Cmd: MAP LOAD FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.22-19.44.46:262][604]LightingResults: New page: Lighting Build
+[2020.03.22-19.44.46:263][604]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.03.22-19.44.46:264][604]MapCheck: New page: Map Check
+[2020.03.22-19.44.46:264][604]LightingResults: New page: Lighting Build
+[2020.03.22-19.44.46:306][604]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.03.22-19.44.46:308][604]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.22-19.44.46:341][604]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.03.22-19.44.46:375][604]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.22-19.44.46:375][604]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.093ms to complete.
+[2020.03.22-19.44.46:375][604]LogFileHelpers: Loading map 'MainMenu' took 0.114
+[2020.03.22-19.44.49:334][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.22-19.44.51:203][ 46]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MainMenu.MainMenu
+[2020.03.22-19.44.51:235][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.03.22-19.44.51:236][ 46]Cmd: MAP LOAD FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.22-19.44.51:237][ 46]LightingResults: New page: Lighting Build
+[2020.03.22-19.44.51:238][ 46]LoadErrors: New page: Loading map: MainMenu.umap
+[2020.03.22-19.44.51:238][ 46]MapCheck: New page: Map Check
+[2020.03.22-19.44.51:239][ 46]LightingResults: New page: Lighting Build
+[2020.03.22-19.44.51:274][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2020.03.22-19.44.51:285][ 46]LogAIModule: Creating AISystem for world MainMenu
+[2020.03.22-19.44.51:288][ 46]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.22-19.44.51:323][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2020.03.22-19.44.51:353][ 46]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.22-19.44.51:353][ 46]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.081ms to complete.
+[2020.03.22-19.44.51:355][ 46]LogFileHelpers: Loading map 'MainMenu' took 0.120
+[2020.03.22-19.44.56:590][575]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu
+[2020.03.22-19.46.27:387][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.03.22-19.46.27:594][ 92]LogSlate: Window 'BattleTank - Unreal Editor' being destroyed
+[2020.03.22-19.46.27:597][ 92]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Pinyin).
+[2020.03.22-19.46.27:852][ 93]Cmd: QUIT_EDITOR
+[2020.03.22-19.46.28:072][ 93]LogExit: Preparing to exit.
+[2020.03.22-19.46.29:401][ 93]LogExit: Editor shut down
+[2020.03.22-19.46.29:402][ 93]LogExit: Transaction tracking system shut down
+[2020.03.22-19.46.30:619][ 93]LogExit: Object subsystem successfully closed.
+[2020.03.22-19.46.30:773][ 93]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.03.22-19.46.30:807][ 93]LogD3D11RHI: Shutdown
+[2020.03.22-19.46.30:807][ 93]LogD3D11RHI: CleanupD3DDevice
+[2020.03.22-19.46.30:837][ 93]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.03.22-19.46.30:837][ 93]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.22-19.46.30:845][ 93]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.03.22-19.46.30:845][ 93]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.22-19.46.30:845][ 93]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.03.22-19.46.30:845][ 93]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.03.22-19.46.32:475][ 93]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.03.22-19.46.33:131][ 93]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (660)
+[2020.03.22-19.46.33:131][ 93]LogModuleManager: Shutting down and abandoning module TextureEditor (658)
+[2020.03.22-19.46.33:135][ 93]LogModuleManager: Shutting down and abandoning module NewLevelDialog (656)
+[2020.03.22-19.46.33:135][ 93]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (654)
+[2020.03.22-19.46.33:145][ 93]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (652)
+[2020.03.22-19.46.33:145][ 93]LogModuleManager: Shutting down and abandoning module Voice (650)
+[2020.03.22-19.46.33:152][ 93]LogModuleManager: Shutting down and abandoning module SequencerWidgets (648)
+[2020.03.22-19.46.33:152][ 93]LogModuleManager: Shutting down and abandoning module BlueprintGraph (646)
+[2020.03.22-19.46.33:152][ 93]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2020.03.22-19.46.33:152][ 93]LogModuleManager: Shutting down and abandoning module SceneOutliner (642)
+[2020.03.22-19.46.33:152][ 93]LogModuleManager: Shutting down and abandoning module AddContentDialog (640)
+[2020.03.22-19.46.33:214][ 93]LogModuleManager: Shutting down and abandoning module WidgetCarousel (639)
+[2020.03.22-19.46.33:214][ 93]LogModuleManager: Shutting down and abandoning module EditorWidgets (636)
+[2020.03.22-19.46.33:214][ 93]LogModuleManager: Shutting down and abandoning module CollectionManager (634)
+[2020.03.22-19.46.33:221][ 93]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2020.03.22-19.46.33:226][ 93]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2020.03.22-19.46.33:246][ 93]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2020.03.22-19.46.33:259][ 93]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2020.03.22-19.46.33:271][ 93]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2020.03.22-19.46.33:271][ 93]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2020.03.22-19.46.33:271][ 93]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2020.03.22-19.46.33:271][ 93]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2020.03.22-19.46.33:271][ 93]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2020.03.22-19.46.33:271][ 93]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2020.03.22-19.46.33:280][ 93]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2020.03.22-19.46.33:281][ 93]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2020.03.22-19.46.33:287][ 93]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2020.03.22-19.46.33:287][ 93]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2020.03.22-19.46.33:289][ 93]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2020.03.22-19.46.33:300][ 93]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2020.03.22-19.46.33:308][ 93]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2020.03.22-19.46.33:308][ 93]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2020.03.22-19.46.33:331][ 93]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2020.03.22-19.46.33:341][ 93]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2020.03.22-19.46.33:341][ 93]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2020.03.22-19.46.33:341][ 93]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2020.03.22-19.46.33:341][ 93]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2020.03.22-19.46.33:341][ 93]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2020.03.22-19.46.33:348][ 93]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2020.03.22-19.46.33:354][ 93]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2020.03.22-19.46.33:361][ 93]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2020.03.22-19.46.33:364][ 93]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2020.03.22-19.46.33:365][ 93]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2020.03.22-19.46.33:365][ 93]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2020.03.22-19.46.33:371][ 93]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2020.03.22-19.46.33:382][ 93]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2020.03.22-19.46.33:395][ 93]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2020.03.22-19.46.33:401][ 93]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2020.03.22-19.46.33:410][ 93]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2020.03.22-19.46.33:410][ 93]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2020.03.22-19.46.33:410][ 93]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2020.03.22-19.46.33:410][ 93]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2020.03.22-19.46.33:410][ 93]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2020.03.22-19.46.35:354][ 93]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2020.03.22-19.46.35:354][ 93]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2020.03.22-19.46.35:354][ 93]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2020.03.22-19.46.35:354][ 93]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2020.03.22-19.46.35:354][ 93]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2020.03.22-19.46.35:355][ 93]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2020.03.22-19.46.35:367][ 93]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2020.03.22-19.46.35:377][ 93]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2020.03.22-19.46.35:389][ 93]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2020.03.22-19.46.35:391][ 93]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2020.03.22-19.46.35:391][ 93]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2020.03.22-19.46.35:392][ 93]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2020.03.22-19.46.35:397][ 93]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2020.03.22-19.46.35:400][ 93]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2020.03.22-19.46.35:400][ 93]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2020.03.22-19.46.35:400][ 93]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2020.03.22-19.46.35:402][ 93]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2020.03.22-19.46.35:402][ 93]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2020.03.22-19.46.35:402][ 93]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2020.03.22-19.46.35:414][ 93]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2020.03.22-19.46.35:421][ 93]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2020.03.22-19.46.35:432][ 93]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2020.03.22-19.46.35:440][ 93]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2020.03.22-19.46.35:485][ 93]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2020.03.22-19.46.35:493][ 93]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2020.03.22-19.46.35:501][ 93]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2020.03.22-19.46.35:527][ 93]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2020.03.22-19.46.35:527][ 93]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2020.03.22-19.46.35:534][ 93]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2020.03.22-19.46.35:535][ 93]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2020.03.22-19.46.35:549][ 93]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2020.03.22-19.46.35:590][ 93]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2020.03.22-19.46.35:591][ 93]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2020.03.22-19.46.35:591][ 93]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2020.03.22-19.46.35:599][ 93]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2020.03.22-19.46.35:599][ 93]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2020.03.22-19.46.35:601][ 93]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2020.03.22-19.46.35:601][ 93]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2020.03.22-19.46.35:608][ 93]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2020.03.22-19.46.35:613][ 93]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2020.03.22-19.46.35:621][ 93]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2020.03.22-19.46.35:621][ 93]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2020.03.22-19.46.35:625][ 93]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2020.03.22-19.46.35:627][ 93]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2020.03.22-19.46.35:641][ 93]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2020.03.22-19.46.35:641][ 93]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2020.03.22-19.46.35:641][ 93]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2020.03.22-19.46.35:641][ 93]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2020.03.22-19.46.35:648][ 93]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2020.03.22-19.46.35:648][ 93]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2020.03.22-19.46.35:648][ 93]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2020.03.22-19.46.35:648][ 93]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2020.03.22-19.46.35:648][ 93]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2020.03.22-19.46.35:648][ 93]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2020.03.22-19.46.35:652][ 93]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2020.03.22-19.46.35:652][ 93]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2020.03.22-19.46.35:657][ 93]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2020.03.22-19.46.35:657][ 93]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2020.03.22-19.46.35:662][ 93]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2020.03.22-19.46.35:798][ 93]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2020.03.22-19.46.35:816][ 93]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2020.03.22-19.46.35:816][ 93]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2020.03.22-19.46.35:824][ 93]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2020.03.22-19.46.35:840][ 93]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2020.03.22-19.46.35:848][ 93]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2020.03.22-19.46.35:848][ 93]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2020.03.22-19.46.35:848][ 93]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2020.03.22-19.46.35:858][ 93]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2020.03.22-19.46.35:858][ 93]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2020.03.22-19.46.35:861][ 93]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2020.03.22-19.46.35:861][ 93]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2020.03.22-19.46.35:861][ 93]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2020.03.22-19.46.35:861][ 93]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2020.03.22-19.46.35:871][ 93]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2020.03.22-19.46.35:875][ 93]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2020.03.22-19.46.35:875][ 93]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2020.03.22-19.46.35:875][ 93]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2020.03.22-19.46.35:875][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2020.03.22-19.46.35:875][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2020.03.22-19.46.35:879][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2020.03.22-19.46.35:884][ 93]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2020.03.22-19.46.35:884][ 93]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2020.03.22-19.46.35:884][ 93]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2020.03.22-19.46.35:884][ 93]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2020.03.22-19.46.35:894][ 93]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2020.03.22-19.46.35:894][ 93]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2020.03.22-19.46.35:894][ 93]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.03.22-19.46.35:895][ 93]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.03.22-19.46.35:895][ 93]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.03.22-19.46.35:895][ 93]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.03.22-19.46.35:895][ 93]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.03.22-19.46.35:895][ 93]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2020.03.22-19.46.35:895][ 93]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2020.03.22-19.46.35:904][ 93]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.03.22-19.46.35:904][ 93]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.03.22-19.46.35:908][ 93]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.03.22-19.46.35:913][ 93]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2020.03.22-19.46.35:922][ 93]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2020.03.22-19.46.35:922][ 93]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2020.03.22-19.46.35:922][ 93]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2020.03.22-19.46.35:934][ 93]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2020.03.22-19.46.35:934][ 93]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2020.03.22-19.46.35:934][ 93]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2020.03.22-19.46.35:939][ 93]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2020.03.22-19.46.35:949][ 93]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2020.03.22-19.46.35:953][ 93]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2020.03.22-19.46.35:962][ 93]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2020.03.22-19.46.35:962][ 93]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2020.03.22-19.46.35:962][ 93]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2020.03.22-19.46.35:962][ 93]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2020.03.22-19.46.35:962][ 93]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2020.03.22-19.46.35:962][ 93]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2020.03.22-19.46.35:962][ 93]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2020.03.22-19.46.35:962][ 93]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2020.03.22-19.46.35:974][ 93]LogModuleManager: Shutting down and abandoning module BattleTank (296)
+[2020.03.22-19.46.35:974][ 93]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.03.22-19.46.35:974][ 93]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.03.22-19.46.35:974][ 93]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.03.22-19.46.35:974][ 93]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.03.22-19.46.35:974][ 93]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.03.22-19.46.35:974][ 93]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.03.22-19.46.35:974][ 93]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.03.22-19.46.36:075][ 93]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.03.22-19.46.36:188][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.03.22-19.46.36:188][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.03.22-19.46.36:188][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.03.22-19.46.36:197][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.03.22-19.46.36:197][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.03.22-19.46.36:202][ 93]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.03.22-19.46.36:202][ 93]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.03.22-19.46.36:202][ 93]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.03.22-19.46.36:202][ 93]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.03.22-19.46.36:202][ 93]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.03.22-19.46.36:202][ 93]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.03.22-19.46.36:202][ 93]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.03.22-19.46.36:202][ 93]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.03.22-19.46.36:213][ 93]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.03.22-19.46.36:225][ 93]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.03.22-19.46.36:234][ 93]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.03.22-19.46.36:234][ 93]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.03.22-19.46.36:234][ 93]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.03.22-19.46.36:239][ 93]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.03.22-19.46.36:241][ 93]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.03.22-19.46.36:247][ 93]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.03.22-19.46.36:247][ 93]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.03.22-19.46.36:247][ 93]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.03.22-19.46.36:247][ 93]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.03.22-19.46.36:252][ 93]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.03.22-19.46.36:256][ 93]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.03.22-19.46.36:288][ 93]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.03.22-19.46.36:288][ 93]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.03.22-19.46.36:288][ 93]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.03.22-19.46.36:294][ 93]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.03.22-19.46.36:295][ 93]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.03.22-19.46.36:295][ 93]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.03.22-19.46.36:295][ 93]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.03.22-19.46.36:304][ 93]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.03.22-19.46.36:309][ 93]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.03.22-19.46.36:309][ 93]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.03.22-19.46.36:334][ 93]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.03.22-19.46.36:342][ 93]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.03.22-19.46.36:349][ 93]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.03.22-19.46.36:349][ 93]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.03.22-19.46.36:349][ 93]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.03.22-19.46.36:349][ 93]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.03.22-19.46.36:359][ 93]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.03.22-19.46.36:359][ 93]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.03.22-19.46.36:374][ 93]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.03.22-19.46.36:374][ 93]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.03.22-19.46.36:376][ 93]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.03.22-19.46.36:384][ 93]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.03.22-19.46.36:384][ 93]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.03.22-19.46.36:384][ 93]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.03.22-19.46.36:384][ 93]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.03.22-19.46.36:384][ 93]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.03.22-19.46.36:384][ 93]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.03.22-19.46.36:384][ 93]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.03.22-19.46.36:384][ 93]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.03.22-19.46.36:384][ 93]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.03.22-19.46.36:393][ 93]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.03.22-19.46.36:393][ 93]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.03.22-19.46.36:410][ 93]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.03.22-19.46.36:422][ 93]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.03.22-19.46.36:426][ 93]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.03.22-19.46.36:429][ 93]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.03.22-19.46.36:431][ 93]LogDerivedDataCache: Shutdown
+[2020.03.22-19.46.36:431][ 93]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.03.22-19.46.36:433][ 93]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.03.22-19.46.36:437][ 93]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.03.22-19.46.36:444][ 93]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.03.22-19.46.36:454][ 93]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.03.22-19.46.36:463][ 93]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.03.22-19.46.36:463][ 93]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.03.22-19.46.36:468][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.03.22-19.46.36:468][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.03.22-19.46.36:468][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.03.22-19.46.36:476][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.03.22-19.46.36:477][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.03.22-19.46.36:477][ 93]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.03.22-19.46.36:477][ 93]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.03.22-19.46.36:477][ 93]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.03.22-19.46.36:486][ 93]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.03.22-19.46.36:486][ 93]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.03.22-19.46.36:524][ 93]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.03.22-19.46.36:544][ 93]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.03.22-19.46.36:544][ 93]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.03.22-19.46.36:554][ 93]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.03.22-19.46.36:554][ 93]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.03.22-19.46.36:554][ 93]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.03.22-19.46.36:560][ 93]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.03.22-19.46.36:560][ 93]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.03.22-19.46.36:564][ 93]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.03.22-19.46.36:564][ 93]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.03.22-19.46.36:596][ 93]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.03.22-19.46.36:596][ 93]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.03.22-19.46.36:596][ 93]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.03.22-19.46.36:596][ 93]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.03.22-19.46.36:596][ 93]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.03.22-19.46.36:596][ 93]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.03.22-19.46.36:596][ 93]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.03.22-19.46.36:596][ 93]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.03.22-19.46.36:597][ 93]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.03.22-19.46.36:597][ 93]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.03.22-19.46.36:597][ 93]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.03.22-19.46.36:597][ 93]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.03.22-19.46.36:597][ 93]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.03.22-19.46.36:597][ 93]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.03.22-19.46.36:607][ 93]LogHMD: Freeing OpenVRDLLHandle.
+[2020.03.22-19.46.36:607][ 93]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.03.22-19.46.36:615][ 93]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.03.22-19.46.36:615][ 93]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.03.22-19.46.36:615][ 93]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.03.22-19.46.36:615][ 93]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.03.22-19.46.36:617][ 93]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.03.22-19.46.36:623][ 93]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.03.22-19.46.36:661][ 93]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.03.22-19.46.36:661][ 93]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.22-19.46.36:662][ 93]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1EC32EAE-415D-E641-FBCB-52A5ABB1487D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=ee6768d7457c819060d33d9249d49717%7C4cd5fea14e0145689239c427634864f4%7C18dc5832-3388-4e32-988b-5c2edb43a2ac&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.03.22-19.46.36:695][ 93]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.03.22-19.46.36:697][ 93]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.03.22-19.46.36:709][ 93]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.03.22-19.46.36:715][ 93]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.03.22-19.46.36:716][ 93]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.03.22-19.46.36:716][ 93]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.03.22-19.46.36:725][ 93]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.03.22-19.46.36:768][ 93]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.03.22-19.46.36:788][ 93]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.03.22-19.46.36:788][ 93]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.03.22-19.46.36:788][ 93]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.03.22-19.46.36:788][ 93]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.03.22-19.46.36:802][ 93]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.03.22-19.46.36:823][ 93]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.03.22-19.46.36:824][ 93]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.03.22-19.46.36:829][ 93]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.03.22-19.46.36:829][ 93]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.03.22-19.46.36:829][ 93]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.03.22-19.46.36:829][ 93]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.03.22-19.46.36:834][ 93]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.03.22-19.46.36:834][ 93]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.03.22-19.46.36:839][ 93]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.03.22-19.46.36:839][ 93]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.03.22-19.46.36:843][ 93]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.03.22-19.46.36:874][ 93]LogExit: Exiting.
+[2020.03.22-19.46.36:926][ 93]Log file closed, 03/22/20 15:46:36
