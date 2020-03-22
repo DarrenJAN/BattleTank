@@ -7,10 +7,20 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\MyPawn.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\MyTankPawn.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\MyTankPawn2.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.init.gen.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.gen.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\MyPawn.gen.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\MyTankPawn.gen.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\MyTankPawn2.gen.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.gen.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.gen.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Default.rc2.res"
 /OUT:"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.lib"
 /INCLUDE:IMPLEMENT_MODULE_BattleTank
