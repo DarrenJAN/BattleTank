@@ -31,6 +31,7 @@ public:
 	//Convert 2D screen position to World Space 3D position and direction.
 	bool GetLookDirection(FVector2D ScreenLocation, FVector& WorldLocation, FVector& LookDirection) const;
 
+	bool GetLookVectorHitLocation(FVector LookDirection, FVector & HitLocation) const;
 
 private:
 	UPROPERTY(EditAnywhere)
@@ -38,4 +39,7 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	float CrossHairYLocation = 0.33333;
+
+	UPROPERTY(EditAnywhere)
+	float LineTraceRange = 1000000;
 };

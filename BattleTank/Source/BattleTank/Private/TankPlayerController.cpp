@@ -47,13 +47,12 @@ void ATankPlayerController::AimTowardCrossHair(){
 }
 
 
-bool ATankPlayerController::GetSightRayHitLocation(FVector& Outlocation) const {
-    Outlocation = FVector(1.0);
-
+bool ATankPlayerController::GetSightRayHitLocation(FVector& Hitlocation) const {
     int32 ViewportSizeX, ViewportSizeY;
     GetViewportSize(ViewportSizeX, ViewportSizeY);
 
     auto ScreenLocation = FVector2D(ViewportSizeX *  CrossHairXLocation, ViewportSizeY * CrossHairYLocation);
+    //Check
     // UE_LOG(LogTemp, Warning, TEXT("ScreenLocation: %s"), *ScreenLocation.ToString());
     
     //Convert 2D screen position to World Space 3D position and direction.
@@ -61,22 +60,39 @@ bool ATankPlayerController::GetSightRayHitLocation(FVector& Outlocation) const {
     FVector  WorldDirection;
  
    if(GetLookDirection(ScreenLocation, WorldLocation, WorldDirection)){
-       UE_LOG(LogTemp, Warning, TEXT("WorldDirection: %s"), *WorldDirection.ToString());
+       //Check
+       //UE_LOG(LogTemp, Warning, TEXT("WorldDirection: %s"), *WorldDirection.ToString());
+
+       //Line-Trace along that LookDirection, and see what we hit up (up to max range)
+        GetLookVectorHitLocation(WorldDirection,Hitlocation);
    }
 
-    // FVector PlayerViewPointLocation;
-    // FRotator PlayerViewRoation;
-    // GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
-    //      PlayerViewPointLocation,
-    //      PlayerViewRoation
-    // );
-
-    // UE_LOG(LogTemp, Warning, TEXT("PlayerViewdRoation: %s"), *PlayerViewRoation.ToString());
-
+   
     return true;
 }
 
 //Convert 2D screen position to World Space 3D position and direction.
 bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation ,FVector&  WorldLocation, FVector& LookDirection) const{
    return DeprojectScreenPositionToWorld(ScreenLocation.X, ScreenLocation.Y, WorldLocation, LookDirection);
+}
+
+
+bool ATankPlayerController::GetLookVectorHitLocation(FVector LookDirection, FVector & HitLocation) const{
+    FHitResult hitresult;
+    auto StartLocation = PlayerCameraManager->GetCameraLocation();
+    auto EndLocation = StartLocation + (LookDirection * LineTraceRange);
+    //TRUE if a blocking hit is found
+    if(GetWorld()->LineTraceSingleByChannel(
+        hitresult,
+        StartLocation,
+        EndLocation, 
+        ECollisionChannel::ECC_Visibility
+    )){
+        HitLocation = hitresult.Location;
+        return true;
+    } else {
+        //False if a blocking hit is not found 
+        HitLocation = FVector(0);
+        return false;
+    }
 }
