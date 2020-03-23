@@ -43,11 +43,40 @@ void ATankPlayerController::AimTowardCrossHair(){
     // GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
     //     PlayerViewPointLocation,
     //     PlayerViewRoation
-    // };
+    // );
 }
 
 
 bool ATankPlayerController::GetSightRayHitLocation(FVector& Outlocation) const {
     Outlocation = FVector(1.0);
+
+    int32 ViewportSizeX, ViewportSizeY;
+    GetViewportSize(ViewportSizeX, ViewportSizeY);
+
+    auto ScreenLocation = FVector2D(ViewportSizeX *  CrossHairXLocation, ViewportSizeY * CrossHairYLocation);
+    // UE_LOG(LogTemp, Warning, TEXT("ScreenLocation: %s"), *ScreenLocation.ToString());
+    
+    //Convert 2D screen position to World Space 3D position and direction.
+    FVector  WorldLocation; // Ignore this because it is the camera's World Location but it is not needed.
+    FVector  WorldDirection;
+ 
+   if(GetLookDirection(ScreenLocation, WorldLocation, WorldDirection)){
+       UE_LOG(LogTemp, Warning, TEXT("WorldDirection: %s"), *WorldDirection.ToString());
+   }
+
+    // FVector PlayerViewPointLocation;
+    // FRotator PlayerViewRoation;
+    // GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+    //      PlayerViewPointLocation,
+    //      PlayerViewRoation
+    // );
+
+    // UE_LOG(LogTemp, Warning, TEXT("PlayerViewdRoation: %s"), *PlayerViewRoation.ToString());
+
     return true;
+}
+
+//Convert 2D screen position to World Space 3D position and direction.
+bool ATankPlayerController::GetLookDirection(FVector2D ScreenLocation ,FVector&  WorldLocation, FVector& LookDirection) const{
+   return DeprojectScreenPositionToWorld(ScreenLocation.X, ScreenLocation.Y, WorldLocation, LookDirection);
 }

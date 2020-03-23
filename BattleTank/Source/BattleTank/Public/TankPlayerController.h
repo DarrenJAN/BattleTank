@@ -28,4 +28,14 @@ public:
 	//return an OUT parameter, true if hit landscape 
 	bool GetSightRayHitLocation(FVector& Outlocation) const;
 
+	//Convert 2D screen position to World Space 3D position and direction.
+	bool GetLookDirection(FVector2D ScreenLocation, FVector& WorldLocation, FVector& LookDirection) const;
+
+
+private:
+	UPROPERTY(EditAnywhere)
+	float CrossHairXLocation = 0.5;
+
+	UPROPERTY(EditAnywhere)
+	float CrossHairYLocation = 0.33333;
 };
