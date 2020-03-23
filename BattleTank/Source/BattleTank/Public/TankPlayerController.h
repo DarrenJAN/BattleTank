@@ -16,6 +16,16 @@ class BATTLETANK_API ATankPlayerController : public APlayerController
 	GENERATED_BODY()
 
 public:
-	ATank* GetControlledTank() const;
 	virtual void BeginPlay() override;
+	virtual void Tick(float DeltaTime) override;
+
+	ATank* GetControlledTank() const;
+
+	//start the tank moving the barrel so that a show would hit where 
+	// the cross heads
+	void AimTowardCrossHair();
+	
+	//return an OUT parameter, true if hit landscape 
+	bool GetSightRayHitLocation(FVector& Outlocation) const;
+
 };
