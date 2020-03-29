@@ -59,6 +59,7 @@ void UTankAimingComponent::AimAt(FVector Hitlocation,float LaunchSpeed){
 	if( suggestResult) {
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
 		UE_LOG(LogTemp, Warning, TEXT("%s is aiming at %s"),*OurTankName, *AimDirection.ToString());
+		MoveBarrelTowards(AimDirection);
 	}
 
 	
@@ -68,4 +69,16 @@ void UTankAimingComponent::AimAt(FVector Hitlocation,float LaunchSpeed){
 
 void UTankAimingComponent::SetBarrelReference(UStaticMeshComponent * Barrel){
 	this->Barrel = Barrel;
+}
+
+void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection){
+	//work-out different between current barrel roation, and AimDriection
+	auto BarrelRotator =Barrel->GetForwardVector().Rotation();
+	auto AimAsRotator = AimDirection.Rotation();
+	auto DeltaRotator = AimAsRotator - BarrelRotator;
+	UE_LOG(LogTemp, Warning, TEXT("AimAsRotator at %s"), *AimAsRotator.ToString());
+	//Move the barrel the right amount this frame
+
+
+	//Given a max elevation speed, and the frame time
 }
