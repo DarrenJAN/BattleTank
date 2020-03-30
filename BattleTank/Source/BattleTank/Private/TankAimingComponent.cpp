@@ -8,7 +8,7 @@ UTankAimingComponent::UTankAimingComponent()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
-	PrimaryComponentTick.bCanEverTick = true;
+	PrimaryComponentTick.bCanEverTick = true; //TODO should this really tick?s
 
 	// ...
 }
@@ -51,15 +51,21 @@ void UTankAimingComponent::AimAt(FVector Hitlocation,float LaunchSpeed){
 		Hitlocation,
 		LaunchSpeed,
 		false,
-		0,
-		0, 
-		ESuggestProjVelocityTraceOption::DoNotTrace
+		0.f,
+		0
+		,ESuggestProjVelocityTraceOption::DoNotTrace // comment this to produce bug
 		);
-
+		
 	if( suggestResult) {
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
 		// UE_LOG(LogTemp, Warning, TEXT("%s is aiming at %s"),*OurTankName, *AimDirection.ToString());
 		MoveBarrelTowards(AimDirection);
+
+		auto Time = GetWorld()->GetTimeSeconds();
+		UE_LOG(LogTemp, Warning, TEXT("%f: Elevate function called"),Time);
+	} else {
+		auto Time = GetWorld()->GetTimeSeconds();
+		UE_LOG(LogTemp, Warning, TEXT("%f: No aiming is found!"),Time);
 	}
 
 	
