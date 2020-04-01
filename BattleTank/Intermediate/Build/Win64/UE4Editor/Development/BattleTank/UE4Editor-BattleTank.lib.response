@@ -15,6 +15,7 @@
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAimingComponent.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankBarrel.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankTurret.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.init.gen.cpp.obj"
@@ -27,6 +28,7 @@
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAimingComponent.gen.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankBarrel.gen.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.gen.cpp.obj"
+"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankTurret.gen.cpp.obj"
 "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Default.rc2.res"
 /OUT:"E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.lib"
 /INCLUDE:IMPLEMENT_MODULE_BattleTank
