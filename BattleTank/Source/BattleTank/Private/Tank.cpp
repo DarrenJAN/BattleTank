@@ -49,3 +49,9 @@ void ATank::SetBarrelReference(UTankBarrel * Barrel){
 void ATank::SetTurretReference(UTankTurret * Turret){
 	TankAimingComponent->SetTurretReference(Turret);
 }
+
+
+void ATank::Fire(){
+	auto Time = GetWorld()->GetTimeSeconds();
+	UE_LOG(LogTemp, Warning, TEXT("%f: Firing"),Time);
+}
