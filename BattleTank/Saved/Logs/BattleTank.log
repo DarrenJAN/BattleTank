@@ -1271,3 +1271,1170 @@ Script Stack (0 frames):
 [2020.04.20-22.47.51:980][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BattleGround" FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2020.04.20-22.47.52:017][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
 [2020.04.20-22.47.52:862][195]LogSavePackage: Moving '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Saved/BattleGroundB22AA360479F74AE76152F854D1B13EE.tmp' to '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap'
+[2020.04.20-23.03.54:183][375]BlueprintLog: New page: Compile Projectile_NewBP
+[2020.04.20-23.03.54:404][375]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.04.20-23.03.54:794][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Projectile_NewBP" FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Tank/Projectile_NewBP.uasset" SILENT=true
+[2020.04.20-23.03.54:823][402]LogSavePackage: Moving '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Saved/Projectile_NewBP8572B635453A0979D454E89B901816BF.tmp' to '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Tank/Projectile_NewBP.uasset'
+[2020.04.20-23.03.56:606][579]Candidate modules for hot reload:
+[2020.04.20-23.03.56:606][579]  BattleTank
+[2020.04.20-23.03.56:606][579]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,8285 Win64 Development -TargetType=Editor -Project="E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject" "E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.04.20-23.03.56:626][579]Warning: Starting HotReload took  0.0s.
+[2020.04.20-23.05.11:359][528]CompilerResultsLog: New page: Compilation - Apr 20, 2020, 3:05:11 PM
+[2020.04.20-23.05.11:360][528]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Project\BattleTank\BattleTank).
+[2020.04.20-23.05.11:360][528]CompilerResultsLog: Creating makefile for BattleTankEditor (ini files are newer than makefile)
+[2020.04.20-23.05.11:360][528]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2020.04.20-23.05.11:360][528]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal Project\BattleTank\BattleTank\BattleTank\BattleTank.uproject" "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.20-23.05.11:361][528]CompilerResultsLog: Reflection code generated for BattleTankEditor in 28.783589 seconds
+[2020.04.20-23.05.11:361][528]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(1) : error: Expected Tank.h to be first header included.
+[2020.04.20-23.05.11:361][528]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp(1) : error: Expected TankAIController.h to be first header included.
+[2020.04.20-23.05.11:361][528]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\TankAimingComponent.cpp(1) : error: Expected TankAimingComponent.h to be first header included.
+[2020.04.20-23.05.11:362][528]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(1) : error: Expected TankPlayerController.h to be first header included.
+[2020.04.20-23.05.11:362][528]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-23.05.11:362][528]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.20-23.05.11:362][528]CompilerResultsLog:   [1/6] Projectile.cpp
+[2020.04.20-23.05.11:362][528]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(13) : error C2065: 'UMovementComponent': undeclared identifier
+[2020.04.20-23.05.11:363][528]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(13) : error C2672: 'UObject::CreateDefaultSubobject': no matching overloaded function found
+[2020.04.20-23.05.11:363][528]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(13) : error C2974: 'UObject::CreateDefaultSubobject': invalid template argument for 'TReturnType', type expected
+[2020.04.20-23.05.11:363][528]CompilerResultsLog:   E:\Unreal Engine\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(112): note: see declaration of 'UObject::CreateDefaultSubobject'
+[2020.04.20-23.05.11:363][528]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(14) : error C2027: use of undefined type 'UProjectileMovementComponent'
+[2020.04.20-23.05.11:364][528]CompilerResultsLog:   E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Public\Projectile.h(9): note: see declaration of 'UProjectileMovementComponent'
+[2020.04.20-23.05.11:364][528]LogMainFrame: MainFrame: Module compiling took 74.768 seconds
+[2020.04.20-23.05.11:364][528]Warning: HotReload failed, recompile failed
+[2020.04.20-23.05.13:070][675]Candidate modules for hot reload:
+[2020.04.20-23.05.13:070][675]  BattleTank
+[2020.04.20-23.05.13:070][675]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,1780 Win64 Development -TargetType=Editor -Project="E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject" "E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.04.20-23.05.13:072][675]Warning: Starting HotReload took  0.0s.
+[2020.04.20-23.06.06:782][969]CompilerResultsLog: New page: Compilation - Apr 20, 2020, 3:06:06 PM
+[2020.04.20-23.06.06:783][969]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Project\BattleTank\BattleTank).
+[2020.04.20-23.06.06:783][969]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-23.06.06:783][969]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.20-23.06.06:783][969]CompilerResultsLog:   [1/6] Projectile.cpp
+[2020.04.20-23.06.06:784][969]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(13) : error C2065: 'UMovementComponent': undeclared identifier
+[2020.04.20-23.06.06:784][969]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(13) : error C2672: 'UObject::CreateDefaultSubobject': no matching overloaded function found
+[2020.04.20-23.06.06:784][969]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(13) : error C2974: 'UObject::CreateDefaultSubobject': invalid template argument for 'TReturnType', type expected
+[2020.04.20-23.06.06:784][969]CompilerResultsLog:   E:\Unreal Engine\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(112): note: see declaration of 'UObject::CreateDefaultSubobject'
+[2020.04.20-23.06.06:785][969]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(14) : error C2027: use of undefined type 'UProjectileMovementComponent'
+[2020.04.20-23.06.06:785][969]CompilerResultsLog:   E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Public\Projectile.h(9): note: see declaration of 'UProjectileMovementComponent'
+[2020.04.20-23.06.06:785][969]CompilerResultsLog:   [2/6] Projectile.gen.cpp
+[2020.04.20-23.06.06:785][969]CompilerResultsLog:   [3/6] Tank.cpp
+[2020.04.20-23.06.06:785][969]CompilerResultsLog:   E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(46): warning C4458: declaration of 'Barrel' hides class member
+[2020.04.20-23.06.06:785][969]CompilerResultsLog:   E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h(60): note: see declaration of 'ATank::Barrel'
+[2020.04.20-23.06.06:786][969]LogMainFrame: MainFrame: Module compiling took 53.730 seconds
+[2020.04.20-23.06.06:786][969]Warning: HotReload failed, recompile failed
+[2020.04.20-23.08.25:438][ 79]Candidate modules for hot reload:
+[2020.04.20-23.08.25:438][ 79]  BattleTank
+[2020.04.20-23.08.25:439][ 79]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,2892 Win64 Development -TargetType=Editor -Project="E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject" "E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.04.20-23.08.25:441][ 79]Warning: Starting HotReload took  0.0s.
+[2020.04.20-23.08.26:127][124]LogSlate: Window 'Message Log' being destroyed
+[2020.04.20-23.08.26:149][124]LogSlate: Window 'Message Log' being destroyed
+[2020.04.20-23.08.44:199][607]CompilerResultsLog: New page: Compilation - Apr 20, 2020, 3:08:44 PM
+[2020.04.20-23.08.44:199][607]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Project\BattleTank\BattleTank).
+[2020.04.20-23.08.44:199][607]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2020.04.20-23.08.44:200][607]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal Project\BattleTank\BattleTank\BattleTank\BattleTank.uproject" "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.20-23.08.44:200][607]CompilerResultsLog: Reflection code generated for BattleTankEditor in 6.9301102 seconds
+[2020.04.20-23.08.44:200][607]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-23.08.44:200][607]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.20-23.08.44:201][607]CompilerResultsLog:   [1/6] Projectile.cpp
+[2020.04.20-23.08.44:201][607]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(13) : error C2440: '=': cannot convert from 'TReturnType *' to 'UProjectileMovementComponent *'
+[2020.04.20-23.08.44:201][607]CompilerResultsLog:           with
+[2020.04.20-23.08.44:201][607]CompilerResultsLog:           [
+[2020.04.20-23.08.44:201][607]CompilerResultsLog:               TReturnType=UMovementComponent
+[2020.04.20-23.08.44:201][607]CompilerResultsLog:           ]
+[2020.04.20-23.08.44:201][607]CompilerResultsLog:   E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(13): note: Cast from base to derived requires dynamic_cast or static_cast
+[2020.04.20-23.08.44:201][607]CompilerResultsLog:   [2/6] Projectile.gen.cpp
+[2020.04.20-23.08.44:201][607]CompilerResultsLog:   [3/6] Tank.cpp
+[2020.04.20-23.08.44:202][607]CompilerResultsLog:   E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(46): warning C4458: declaration of 'Barrel' hides class member
+[2020.04.20-23.08.44:202][607]CompilerResultsLog:   E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h(60): note: see declaration of 'ATank::Barrel'
+[2020.04.20-23.08.44:202][607]LogMainFrame: MainFrame: Module compiling took 18.778 seconds
+[2020.04.20-23.08.44:202][607]Warning: HotReload failed, recompile failed
+[2020.04.20-23.12.29:616][154]Candidate modules for hot reload:
+[2020.04.20-23.12.29:616][154]  BattleTank
+[2020.04.20-23.12.29:616][154]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,5912 Win64 Development -TargetType=Editor -Project="E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject" "E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.04.20-23.12.29:618][154]Warning: Starting HotReload took  0.0s.
+[2020.04.20-23.12.30:560][212]LogSlate: Window 'Message Log' being destroyed
+[2020.04.20-23.12.30:580][212]LogSlate: Window 'Message Log' being destroyed
+[2020.04.20-23.12.34:399][550]CompilerResultsLog: New page: Compilation - Apr 20, 2020, 3:12:34 PM
+[2020.04.20-23.12.34:399][550]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Project\BattleTank\BattleTank).
+[2020.04.20-23.12.34:399][550]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-23.12.34:400][550]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.20-23.12.34:400][550]CompilerResultsLog:   [1/4] Projectile.cpp
+[2020.04.20-23.12.34:400][550]CompilerResultsLog:   [2/4] UE4Editor-BattleTank-5912.lib
+[2020.04.20-23.12.34:400][550]CompilerResultsLog:      Creating library E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5912.lib and object E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5912.exp
+[2020.04.20-23.12.34:400][550]CompilerResultsLog:   [3/4] UE4Editor-BattleTank-5912.dll
+[2020.04.20-23.12.34:400][550]CompilerResultsLog:      Creating library E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5912.suppressed.lib and object E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-5912.suppressed.exp
+[2020.04.20-23.12.34:401][550]CompilerResultsLog:   [4/4] BattleTankEditor.target
+[2020.04.20-23.12.34:401][550]CompilerResultsLog: Total time in Parallel executor: 3.27 seconds
+[2020.04.20-23.12.34:401][550]CompilerResultsLog: Total execution time: 4.55 seconds
+[2020.04.20-23.12.34:401][550]LogMainFrame: MainFrame: Module compiling took 4.799 seconds
+[2020.04.20-23.12.34:446][550]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.04.20-23.12.34:454][550]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank (unloaded)
+[2020.04.20-23.12.34:575][550]LogClass: Could not find existing class Projectile in package /Script/BattleTank for HotReload, assuming new class
+[2020.04.20-23.12.34:602][550]LogHotReload: Re-instancing Projectile after hot-reload.
+[2020.04.20-23.12.34:925][550]LogHotReload: Re-instancing TankTurret after hot-reload.
+[2020.04.20-23.12.35:091][550]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank (loaded)
+[2020.04.20-23.12.35:101][550]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0026 seconds. Added 11 classes and 3 folders.
+[2020.04.20-23.12.35:117][550]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.20-23.12.35:224][550]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.04.20-23.12.35:224][550]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.20-23.12.35:247][550]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2744 classes and 664 folders.
+[2020.04.20-23.12.35:255][550]Display: HotReload took  5.7s.
+[2020.04.20-23.12.44:159][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BattleGround" FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.20-23.12.44:267][283]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2020.04.20-23.12.45:762][283]LogSavePackage: Moving '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Saved/BattleGroundB1C0DC1541BD3F1E87C31BA04956E658.tmp' to '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap'
+[2020.04.20-23.12.46:815][354]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.04.20-23.12.46:967][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.20-23.12.48:259][471]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.20-23.12.48:282][471]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.12.48:283][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.20-23.12.48:283][471]PIE: New page: PIE session: BattleGround (Apr 20, 2020, 3:12:48 PM)
+[2020.04.20-23.12.48:283][471]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.04.20-23.12.48:378][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094139s)
+[2020.04.20-23.12.48:378][471]LogAIModule: Creating AISystem for world BattleGround
+[2020.04.20-23.12.48:379][471]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2020.04.20-23.12.48:379][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (0.095661s)
+[2020.04.20-23.12.48:430][471]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2020.04.20-23.12.48:461][471]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.20-23.12.48:479][471]LogInit: FAudioDevice initialized.
+[2020.04.20-23.12.48:511][471]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.04.20-23.12.48:514][471]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.04.20-19.12.48
+[2020.04.20-23.12.48:515][471]LogWorld: Bringing up level for play took: 0.003151
+[2020.04.20-23.12.48:529][471]LogTemp: Warning: Tank AI controller found player: Tank_BP_C_0
+[2020.04.20-23.12.48:529][471]LogTemp: Warning: Tank AI controller found player: Tank_BP_C_0
+[2020.04.20-23.12.48:529][471]LogTemp: Warning: Tank player controller possesing: Tank_BP_C_0
+[2020.04.20-23.12.48:530][471]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround -0.075
+[2020.04.20-23.12.48:530][471]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.12.49:044][508]LogTemp: Warning: 0.794615: Firing
+[2020.04.20-23.12.49:360][532]LogTemp: Warning: 1.109663: Firing
+[2020.04.20-23.12.49:538][545]LogTemp: Warning: 1.286015: Firing
+[2020.04.20-23.12.49:714][558]LogTemp: Warning: 1.465145: Firing
+[2020.04.20-23.12.50:071][584]LogTemp: Warning: 1.821134: Firing
+[2020.04.20-23.12.51:162][671]LogTemp: Warning: 2.912614: Firing
+[2020.04.20-23.12.51:636][706]LogTemp: Warning: 3.385087: Firing
+[2020.04.20-23.12.52:133][746]LogTemp: Warning: 3.884661: Firing
+[2020.04.20-23.12.55:442][945]LogTemp: Warning: 7.193164: Firing
+[2020.04.20-23.12.55:969][984]LogTemp: Warning: 7.720231: Firing
+[2020.04.20-23.12.56:968][ 58]LogTemp: Warning: 8.719357: Firing
+[2020.04.20-23.12.57:852][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.12.57:853][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-23.12.57:896][124]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.20-23.12.57:896][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.12.57:941][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-23.12.57:948][124]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.04.20-23.12.57:970][125]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.04.20-23.19.16:853][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.20-23.19.16:939][139]Candidate modules for hot reload:
+[2020.04.20-23.19.16:939][139]  BattleTank
+[2020.04.20-23.19.16:939][139]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,1987 Win64 Development -TargetType=Editor -Project="E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject" "E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.04.20-23.19.16:941][139]Warning: Starting HotReload took  0.0s.
+[2020.04.20-23.19.28:520][256]CompilerResultsLog: New page: Compilation - Apr 20, 2020, 3:19:28 PM
+[2020.04.20-23.19.28:520][256]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Project\BattleTank\BattleTank).
+[2020.04.20-23.19.28:520][256]CompilerResultsLog: Creating makefile for BattleTankEditor (ini files are newer than makefile)
+[2020.04.20-23.19.28:521][256]CompilerResultsLog: Parsing headers for BattleTankEditor
+[2020.04.20-23.19.28:521][256]CompilerResultsLog:   Running UnrealHeaderTool "E:\Unreal Project\BattleTank\BattleTank\BattleTank\BattleTank.uproject" "E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\BattleTankEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.20-23.19.28:521][256]CompilerResultsLog: Reflection code generated for BattleTankEditor in 6.5052053 seconds
+[2020.04.20-23.19.28:521][256]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(1) : error: Expected Tank.h to be first header included.
+[2020.04.20-23.19.28:521][256]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp(1) : error: Expected TankAIController.h to be first header included.
+[2020.04.20-23.19.28:522][256]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\TankAimingComponent.cpp(1) : error: Expected TankAimingComponent.h to be first header included.
+[2020.04.20-23.19.28:522][256]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(1) : error: Expected TankPlayerController.h to be first header included.
+[2020.04.20-23.19.28:522][256]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-23.19.28:523][256]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.20-23.19.28:523][256]LogMainFrame: MainFrame: Module compiling took 11.598 seconds
+[2020.04.20-23.19.28:523][256]Warning: HotReload failed, recompile failed
+[2020.04.20-23.19.29:565][321]Candidate modules for hot reload:
+[2020.04.20-23.19.29:565][321]  BattleTank
+[2020.04.20-23.19.29:565][321]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,1689 Win64 Development -TargetType=Editor -Project="E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject" "E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.04.20-23.19.29:567][321]Warning: Starting HotReload took  0.0s.
+[2020.04.20-23.20.49:755][512]CompilerResultsLog: New page: Compilation - Apr 20, 2020, 3:20:49 PM
+[2020.04.20-23.20.49:756][512]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Project\BattleTank\BattleTank).
+[2020.04.20-23.20.49:756][512]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-23.20.49:756][512]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.20-23.20.49:756][512]CompilerResultsLog:   [1/6] Projectile.cpp
+[2020.04.20-23.20.49:756][512]CompilerResultsLog:    E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Projectile.cpp(32) : error C2065: 'Time': undeclared identifier
+[2020.04.20-23.20.49:757][512]CompilerResultsLog:   [2/6] Projectile.gen.cpp
+[2020.04.20-23.20.49:757][512]CompilerResultsLog:   [3/6] Tank.cpp
+[2020.04.20-23.20.49:757][512]CompilerResultsLog:   E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(46): warning C4458: declaration of 'Barrel' hides class member
+[2020.04.20-23.20.49:757][512]CompilerResultsLog:   E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Public\Tank.h(60): note: see declaration of 'ATank::Barrel'
+[2020.04.20-23.20.49:757][512]LogMainFrame: MainFrame: Module compiling took 80.211 seconds
+[2020.04.20-23.20.49:757][512]Warning: HotReload failed, recompile failed
+[2020.04.20-23.21.51:691][245]Candidate modules for hot reload:
+[2020.04.20-23.21.51:691][245]  BattleTank
+[2020.04.20-23.21.51:691][245]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,6118 Win64 Development -TargetType=Editor -Project="E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject" "E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.04.20-23.21.51:693][245]Warning: Starting HotReload took  0.0s.
+[2020.04.20-23.21.52:604][294]LogSlate: Window 'Message Log' being destroyed
+[2020.04.20-23.21.52:627][294]LogSlate: Window 'Message Log' being destroyed
+[2020.04.20-23.21.55:319][460]CompilerResultsLog: New page: Compilation - Apr 20, 2020, 3:21:55 PM
+[2020.04.20-23.21.55:319][460]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Project\BattleTank\BattleTank).
+[2020.04.20-23.21.55:319][460]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-23.21.55:320][460]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.20-23.21.55:320][460]CompilerResultsLog:   [1/4] Projectile.cpp
+[2020.04.20-23.21.55:320][460]CompilerResultsLog:   [2/4] UE4Editor-BattleTank-6118.lib
+[2020.04.20-23.21.55:320][460]CompilerResultsLog:      Creating library E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6118.lib and object E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6118.exp
+[2020.04.20-23.21.55:320][460]CompilerResultsLog:   [3/4] UE4Editor-BattleTank-6118.dll
+[2020.04.20-23.21.55:321][460]CompilerResultsLog:      Creating library E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6118.suppressed.lib and object E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-6118.suppressed.exp
+[2020.04.20-23.21.55:321][460]CompilerResultsLog:   [4/4] BattleTankEditor.target
+[2020.04.20-23.21.55:321][460]CompilerResultsLog: Total time in Parallel executor: 2.35 seconds
+[2020.04.20-23.21.55:321][460]CompilerResultsLog: Total execution time: 3.50 seconds
+[2020.04.20-23.21.55:321][460]LogMainFrame: MainFrame: Module compiling took 3.649 seconds
+[2020.04.20-23.21.55:372][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.04.20-23.21.55:373][460]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank (unloaded)
+[2020.04.20-23.21.55:435][460]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank (loaded)
+[2020.04.20-23.21.55:436][460]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 11 classes and 3 folders.
+[2020.04.20-23.21.55:441][460]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.20-23.21.55:555][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.04.20-23.21.55:555][460]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.20-23.21.55:572][460]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2744 classes and 664 folders.
+[2020.04.20-23.21.55:573][460]Display: HotReload took  3.9s.
+[2020.04.20-23.21.58:159][607]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.20-23.21.58:183][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.21.58:184][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.20-23.21.58:184][607]PIE: New page: PIE session: BattleGround (Apr 20, 2020, 3:21:58 PM)
+[2020.04.20-23.21.58:184][607]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.04.20-23.21.58:277][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092821s)
+[2020.04.20-23.21.58:278][607]LogAIModule: Creating AISystem for world BattleGround
+[2020.04.20-23.21.58:292][607]LogPlayLevel: PIE: World Init took: (0.015008s)
+[2020.04.20-23.21.58:293][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (0.108412s)
+[2020.04.20-23.21.58:383][607]LogUObjectHash: Compacting FUObjectHashTables data took   7.51ms
+[2020.04.20-23.21.58:405][607]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.20-23.21.58:416][607]LogInit: FAudioDevice initialized.
+[2020.04.20-23.21.58:450][607]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.04.20-23.21.58:453][607]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.04.20-19.21.58
+[2020.04.20-23.21.58:454][607]LogWorld: Bringing up level for play took: 0.002878
+[2020.04.20-23.21.58:468][607]LogTemp: Warning: Tank AI controller found player: Tank_BP_C_0
+[2020.04.20-23.21.58:468][607]LogTemp: Warning: Tank AI controller found player: Tank_BP_C_0
+[2020.04.20-23.21.58:468][607]LogTemp: Warning: Tank player controller possesing: Tank_BP_C_0
+[2020.04.20-23.21.58:468][607]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround -0.136
+[2020.04.20-23.21.58:469][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.22.05:556][116]LogTemp: Warning: 7.409904: No aiming is found!
+[2020.04.20-23.22.05:566][117]LogTemp: Warning: 7.421191: No aiming is found!
+[2020.04.20-23.22.05:579][118]LogTemp: Warning: 7.433284: No aiming is found!
+[2020.04.20-23.22.05:590][119]LogTemp: Warning: 7.445347: No aiming is found!
+[2020.04.20-23.22.05:602][120]LogTemp: Warning: 7.457535: No aiming is found!
+[2020.04.20-23.22.05:615][121]LogTemp: Warning: 7.469507: No aiming is found!
+[2020.04.20-23.22.05:625][122]LogTemp: Warning: 7.481313: No aiming is found!
+[2020.04.20-23.22.05:637][123]LogTemp: Warning: 7.492956: No aiming is found!
+[2020.04.20-23.22.05:650][124]LogTemp: Warning: 7.504800: No aiming is found!
+[2020.04.20-23.22.05:660][125]LogTemp: Warning: 7.516628: No aiming is found!
+[2020.04.20-23.22.05:673][126]LogTemp: Warning: 7.528100: No aiming is found!
+[2020.04.20-23.22.05:683][127]LogTemp: Warning: 7.539813: No aiming is found!
+[2020.04.20-23.22.05:698][128]LogTemp: Warning: 7.551837: No aiming is found!
+[2020.04.20-23.22.05:708][129]LogTemp: Warning: 7.563861: No aiming is found!
+[2020.04.20-23.22.05:719][130]LogTemp: Warning: 7.574089: No aiming is found!
+[2020.04.20-23.22.05:729][131]LogTemp: Warning: 7.584827: No aiming is found!
+[2020.04.20-23.22.05:739][132]LogTemp: Warning: 7.595393: No aiming is found!
+[2020.04.20-23.22.05:750][133]LogTemp: Warning: 7.606334: No aiming is found!
+[2020.04.20-23.22.05:760][134]LogTemp: Warning: 7.617151: No aiming is found!
+[2020.04.20-23.22.05:772][135]LogTemp: Warning: 7.627881: No aiming is found!
+[2020.04.20-23.22.05:782][136]LogTemp: Warning: 7.638792: No aiming is found!
+[2020.04.20-23.22.05:792][137]LogTemp: Warning: 7.649805: No aiming is found!
+[2020.04.20-23.22.05:803][138]LogTemp: Warning: 7.660308: No aiming is found!
+[2020.04.20-23.22.05:814][139]LogTemp: Warning: 7.671144: No aiming is found!
+[2020.04.20-23.22.05:825][140]LogTemp: Warning: 7.682032: No aiming is found!
+[2020.04.20-23.22.05:836][141]LogTemp: Warning: 7.692673: No aiming is found!
+[2020.04.20-23.22.05:846][142]LogTemp: Warning: 7.703697: No aiming is found!
+[2020.04.20-23.22.05:857][143]LogTemp: Warning: 7.714710: No aiming is found!
+[2020.04.20-23.22.05:868][144]LogTemp: Warning: 7.725504: No aiming is found!
+[2020.04.20-23.22.05:879][145]LogTemp: Warning: 7.736399: No aiming is found!
+[2020.04.20-23.22.05:890][146]LogTemp: Warning: 7.747433: No aiming is found!
+[2020.04.20-23.22.05:901][147]LogTemp: Warning: 7.758179: No aiming is found!
+[2020.04.20-23.22.05:912][148]LogTemp: Warning: 7.769211: No aiming is found!
+[2020.04.20-23.22.07:240][274]LogTemp: Warning: 9.097994: Firing
+[2020.04.20-23.22.07:241][274]LogTemp: Warning: Projectile Launch
+[2020.04.20-23.22.11:177][485]LogTemp: Warning: 13.034475: Firing
+[2020.04.20-23.22.11:178][485]LogTemp: Warning: Projectile Launch
+[2020.04.20-23.22.11:845][534]LogTemp: Warning: 13.702146: Firing
+[2020.04.20-23.22.11:846][534]LogTemp: Warning: Projectile Launch
+[2020.04.20-23.22.13:409][603]LogTemp: Warning: 15.265921: Firing
+[2020.04.20-23.22.13:409][603]LogTemp: Warning: Projectile Launch
+[2020.04.20-23.22.13:651][614]LogTemp: Warning: 15.508295: No aiming is found!
+[2020.04.20-23.22.13:665][615]LogTemp: Warning: 15.521640: No aiming is found!
+[2020.04.20-23.22.13:679][616]LogTemp: Warning: 15.535083: No aiming is found!
+[2020.04.20-23.22.13:692][617]LogTemp: Warning: 15.548727: No aiming is found!
+[2020.04.20-23.22.13:705][618]LogTemp: Warning: 15.561821: No aiming is found!
+[2020.04.20-23.22.13:718][619]LogTemp: Warning: 15.575214: No aiming is found!
+[2020.04.20-23.22.13:732][620]LogTemp: Warning: 15.588743: No aiming is found!
+[2020.04.20-23.22.13:745][621]LogTemp: Warning: 15.601984: No aiming is found!
+[2020.04.20-23.22.13:758][622]LogTemp: Warning: 15.615272: No aiming is found!
+[2020.04.20-23.22.13:772][623]LogTemp: Warning: 15.628225: No aiming is found!
+[2020.04.20-23.22.13:784][624]LogTemp: Warning: 15.641582: No aiming is found!
+[2020.04.20-23.22.13:797][625]LogTemp: Warning: 15.654677: No aiming is found!
+[2020.04.20-23.22.13:810][626]LogTemp: Warning: 15.667835: No aiming is found!
+[2020.04.20-23.22.13:823][627]LogTemp: Warning: 15.680954: No aiming is found!
+[2020.04.20-23.22.13:837][628]LogTemp: Warning: 15.693913: No aiming is found!
+[2020.04.20-23.22.13:849][629]LogTemp: Warning: 15.706917: No aiming is found!
+[2020.04.20-23.22.13:862][630]LogTemp: Warning: 15.719908: No aiming is found!
+[2020.04.20-23.22.13:875][631]LogTemp: Warning: 15.732881: No aiming is found!
+[2020.04.20-23.22.13:887][632]LogTemp: Warning: 15.745479: No aiming is found!
+[2020.04.20-23.22.13:900][633]LogTemp: Warning: 15.758303: No aiming is found!
+[2020.04.20-23.22.13:913][634]LogTemp: Warning: 15.770982: No aiming is found!
+[2020.04.20-23.22.13:926][635]LogTemp: Warning: 15.783902: No aiming is found!
+[2020.04.20-23.22.13:939][636]LogTemp: Warning: 15.796569: No aiming is found!
+[2020.04.20-23.22.13:951][637]LogTemp: Warning: 15.808976: No aiming is found!
+[2020.04.20-23.22.13:964][638]LogTemp: Warning: 15.821833: No aiming is found!
+[2020.04.20-23.22.13:976][639]LogTemp: Warning: 15.834404: No aiming is found!
+[2020.04.20-23.22.13:989][640]LogTemp: Warning: 15.847113: No aiming is found!
+[2020.04.20-23.22.14:001][641]LogTemp: Warning: 15.859662: No aiming is found!
+[2020.04.20-23.22.14:014][642]LogTemp: Warning: 15.872234: No aiming is found!
+[2020.04.20-23.22.14:027][643]LogTemp: Warning: 15.884971: No aiming is found!
+[2020.04.20-23.22.14:039][644]LogTemp: Warning: 15.897622: No aiming is found!
+[2020.04.20-23.22.14:052][645]LogTemp: Warning: 15.910132: No aiming is found!
+[2020.04.20-23.22.14:065][646]LogTemp: Warning: 15.922696: No aiming is found!
+[2020.04.20-23.22.14:077][647]LogTemp: Warning: 15.935384: No aiming is found!
+[2020.04.20-23.22.14:091][648]LogTemp: Warning: 15.948172: No aiming is found!
+[2020.04.20-23.22.14:103][649]LogTemp: Warning: 15.960685: No aiming is found!
+[2020.04.20-23.22.14:115][650]LogTemp: Warning: 15.973412: No aiming is found!
+[2020.04.20-23.22.14:129][651]LogTemp: Warning: 15.986426: No aiming is found!
+[2020.04.20-23.22.14:140][652]LogTemp: Warning: 15.999055: No aiming is found!
+[2020.04.20-23.22.14:154][653]LogTemp: Warning: 16.011501: No aiming is found!
+[2020.04.20-23.22.14:167][654]LogTemp: Warning: 16.024027: No aiming is found!
+[2020.04.20-23.22.14:179][655]LogTemp: Warning: 16.036442: No aiming is found!
+[2020.04.20-23.22.14:192][656]LogTemp: Warning: 16.048977: No aiming is found!
+[2020.04.20-23.22.14:204][657]LogTemp: Warning: 16.061367: No aiming is found!
+[2020.04.20-23.22.14:216][658]LogTemp: Warning: 16.073919: No aiming is found!
+[2020.04.20-23.22.14:229][659]LogTemp: Warning: 16.086386: No aiming is found!
+[2020.04.20-23.22.14:241][660]LogTemp: Warning: 16.098724: No aiming is found!
+[2020.04.20-23.22.14:254][661]LogTemp: Warning: 16.110878: No aiming is found!
+[2020.04.20-23.22.14:266][662]LogTemp: Warning: 16.123413: No aiming is found!
+[2020.04.20-23.22.14:278][663]LogTemp: Warning: 16.135687: No aiming is found!
+[2020.04.20-23.22.14:291][664]LogTemp: Warning: 16.147764: No aiming is found!
+[2020.04.20-23.22.14:302][665]LogTemp: Warning: 16.159534: No aiming is found!
+[2020.04.20-23.22.14:313][666]LogTemp: Warning: 16.171469: No aiming is found!
+[2020.04.20-23.22.14:326][667]LogTemp: Warning: 16.183451: No aiming is found!
+[2020.04.20-23.22.14:337][668]LogTemp: Warning: 16.195042: No aiming is found!
+[2020.04.20-23.22.14:349][669]LogTemp: Warning: 16.206930: No aiming is found!
+[2020.04.20-23.22.14:360][670]LogTemp: Warning: 16.218573: No aiming is found!
+[2020.04.20-23.22.14:373][671]LogTemp: Warning: 16.230354: No aiming is found!
+[2020.04.20-23.22.14:384][672]LogTemp: Warning: 16.241653: No aiming is found!
+[2020.04.20-23.22.14:396][673]LogTemp: Warning: 16.253242: No aiming is found!
+[2020.04.20-23.22.14:407][674]LogTemp: Warning: 16.264978: No aiming is found!
+[2020.04.20-23.22.14:418][675]LogTemp: Warning: 16.276222: No aiming is found!
+[2020.04.20-23.22.14:430][676]LogTemp: Warning: 16.287701: No aiming is found!
+[2020.04.20-23.22.14:442][677]LogTemp: Warning: 16.299109: No aiming is found!
+[2020.04.20-23.22.14:452][678]LogTemp: Warning: 16.310272: No aiming is found!
+[2020.04.20-23.22.14:464][679]LogTemp: Warning: 16.321703: No aiming is found!
+[2020.04.20-23.22.15:027][730]LogTemp: Warning: 16.884895: No aiming is found!
+[2020.04.20-23.22.15:038][731]LogTemp: Warning: 16.896021: No aiming is found!
+[2020.04.20-23.22.15:049][732]LogTemp: Warning: 16.907362: No aiming is found!
+[2020.04.20-23.22.15:061][733]LogTemp: Warning: 16.918804: No aiming is found!
+[2020.04.20-23.22.15:072][734]LogTemp: Warning: 16.930244: No aiming is found!
+[2020.04.20-23.22.15:083][735]LogTemp: Warning: 16.941526: No aiming is found!
+[2020.04.20-23.22.15:096][736]LogTemp: Warning: 16.953350: No aiming is found!
+[2020.04.20-23.22.15:107][737]LogTemp: Warning: 16.965408: No aiming is found!
+[2020.04.20-23.22.15:119][738]LogTemp: Warning: 16.977407: No aiming is found!
+[2020.04.20-23.22.15:132][739]LogTemp: Warning: 16.990179: No aiming is found!
+[2020.04.20-23.22.15:145][740]LogTemp: Warning: 17.003210: No aiming is found!
+[2020.04.20-23.22.15:160][741]LogTemp: Warning: 17.016508: No aiming is found!
+[2020.04.20-23.22.15:172][742]LogTemp: Warning: 17.029343: No aiming is found!
+[2020.04.20-23.22.15:185][743]LogTemp: Warning: 17.042673: No aiming is found!
+[2020.04.20-23.22.15:198][744]LogTemp: Warning: 17.056093: No aiming is found!
+[2020.04.20-23.22.15:211][745]LogTemp: Warning: 17.069214: No aiming is found!
+[2020.04.20-23.22.15:224][746]LogTemp: Warning: 17.082367: No aiming is found!
+[2020.04.20-23.22.15:237][747]LogTemp: Warning: 17.096018: No aiming is found!
+[2020.04.20-23.22.15:251][748]LogTemp: Warning: 17.108829: No aiming is found!
+[2020.04.20-23.22.15:264][749]LogTemp: Warning: 17.122452: No aiming is found!
+[2020.04.20-23.22.15:278][750]LogTemp: Warning: 17.135981: No aiming is found!
+[2020.04.20-23.22.15:291][751]LogTemp: Warning: 17.149332: No aiming is found!
+[2020.04.20-23.22.16:102][810]LogTemp: Warning: 17.959724: Firing
+[2020.04.20-23.22.16:103][810]LogTemp: Warning: Projectile Launch
+[2020.04.20-23.22.17:472][859]LogTemp: Warning: 19.329067: Firing
+[2020.04.20-23.22.17:472][859]LogTemp: Warning: Projectile Launch
+[2020.04.20-23.22.18:505][917]LogTemp: Warning: 20.131742: Firing
+[2020.04.20-23.22.18:505][917]LogTemp: Warning: Projectile Launch
+[2020.04.20-23.22.20:921][ 61]LogTemp: Warning: 22.777695: Firing
+[2020.04.20-23.22.20:921][ 61]LogTemp: Warning: Projectile Launch
+[2020.04.20-23.22.21:728][124]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.22.21:729][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-23.22.21:776][124]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.20-23.22.21:776][124]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.22.21:826][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-23.22.21:834][124]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2020.04.20-23.22.21:867][125]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.04.20-23.24.06:707][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.20-23.24.06:806][928]Candidate modules for hot reload:
+[2020.04.20-23.24.06:806][928]  BattleTank
+[2020.04.20-23.24.06:806][928]Launching UnrealBuildTool... [E:/Unreal Engine/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank,2837 Win64 Development -TargetType=Editor -Project="E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject" "E:/Unreal Project/BattleTank/BattleTank/BattleTank/BattleTank.uproject"  -IgnoreJunk]
+[2020.04.20-23.24.06:809][928]Warning: Starting HotReload took  0.0s.
+[2020.04.20-23.24.11:362][214]CompilerResultsLog: New page: Compilation - Apr 20, 2020, 3:24:11 PM
+[2020.04.20-23.24.11:362][214]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (E:\Unreal Project\BattleTank\BattleTank).
+[2020.04.20-23.24.11:362][214]CompilerResultsLog: Creating makefile for BattleTankEditor (ini files are newer than makefile)
+[2020.04.20-23.24.11:363][214]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\Tank.cpp(1) : error: Expected Tank.h to be first header included.
+[2020.04.20-23.24.11:363][214]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\TankAIController.cpp(1) : error: Expected TankAIController.h to be first header included.
+[2020.04.20-23.24.11:363][214]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\TankAimingComponent.cpp(1) : error: Expected TankAimingComponent.h to be first header included.
+[2020.04.20-23.24.11:363][214]CompilerResultsLog: Error: E:\Unreal Project\BattleTank\BattleTank\BattleTank\Source\BattleTank\Private\TankPlayerController.cpp(1) : error: Expected TankPlayerController.h to be first header included.
+[2020.04.20-23.24.11:363][214]CompilerResultsLog: Using Visual Studio 2019 14.24.28314 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.20-23.24.11:364][214]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.20-23.24.11:364][214]CompilerResultsLog:   [1/4] Projectile.cpp
+[2020.04.20-23.24.11:364][214]CompilerResultsLog:   [2/4] UE4Editor-BattleTank-2837.lib
+[2020.04.20-23.24.11:364][214]CompilerResultsLog:      Creating library E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2837.lib and object E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2837.exp
+[2020.04.20-23.24.11:364][214]CompilerResultsLog:   [3/4] UE4Editor-BattleTank-2837.dll
+[2020.04.20-23.24.11:364][214]CompilerResultsLog:      Creating library E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2837.suppressed.lib and object E:\Unreal Project\BattleTank\BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank-2837.suppressed.exp
+[2020.04.20-23.24.11:365][214]CompilerResultsLog:   [4/4] BattleTankEditor.target
+[2020.04.20-23.24.11:365][214]CompilerResultsLog: Total time in Parallel executor: 2.23 seconds
+[2020.04.20-23.24.11:365][214]CompilerResultsLog: Total execution time: 4.34 seconds
+[2020.04.20-23.24.11:365][214]LogMainFrame: MainFrame: Module compiling took 4.577 seconds
+[2020.04.20-23.24.11:405][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.04.20-23.24.11:406][214]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank (unloaded)
+[2020.04.20-23.24.11:461][214]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank (loaded)
+[2020.04.20-23.24.11:461][214]LogContentBrowser: Native class hierarchy updated for 'BattleTank' in 0.0004 seconds. Added 11 classes and 3 folders.
+[2020.04.20-23.24.11:467][214]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.04.20-23.24.11:581][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.04.20-23.24.11:581][214]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2020.04.20-23.24.11:598][214]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2744 classes and 664 folders.
+[2020.04.20-23.24.11:599][214]Display: HotReload took  4.8s.
+[2020.04.20-23.24.15:066][390]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.20-23.24.15:089][390]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.24.15:090][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.20-23.24.15:090][390]PIE: New page: PIE session: BattleGround (Apr 20, 2020, 3:24:15 PM)
+[2020.04.20-23.24.15:090][390]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.04.20-23.24.15:179][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088909s)
+[2020.04.20-23.24.15:180][390]LogAIModule: Creating AISystem for world BattleGround
+[2020.04.20-23.24.15:181][390]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2020.04.20-23.24.15:181][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (0.090343s)
+[2020.04.20-23.24.15:272][390]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2020.04.20-23.24.15:296][390]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.20-23.24.15:307][390]LogInit: FAudioDevice initialized.
+[2020.04.20-23.24.15:333][390]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.04.20-23.24.15:336][390]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.04.20-19.24.15
+[2020.04.20-23.24.15:336][390]LogWorld: Bringing up level for play took: 0.002917
+[2020.04.20-23.24.15:349][390]LogTemp: Warning: Tank AI controller found player: Tank_BP_C_0
+[2020.04.20-23.24.15:349][390]LogTemp: Warning: Tank AI controller found player: Tank_BP_C_0
+[2020.04.20-23.24.15:350][390]LogTemp: Warning: Tank player controller possesing: Tank_BP_C_0
+[2020.04.20-23.24.15:350][390]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround 0.745
+[2020.04.20-23.24.15:350][390]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.24.16:013][437]LogTemp: Warning: 0.963975: Firing
+[2020.04.20-23.24.17:378][506]LogTemp: Warning: 2.328432: Firing
+[2020.04.20-23.24.18:161][569]LogTemp: Warning: 3.111695: Firing
+[2020.04.20-23.24.18:705][615]LogTemp: Warning: 3.655842: Firing
+[2020.04.20-23.24.21:356][862]LogTemp: Warning: 6.305651: Firing
+[2020.04.20-23.24.21:999][923]LogTemp: Warning: 6.947776: Firing
+[2020.04.20-23.24.26:967][358]LogTemp: Warning: 11.918174: Firing
+[2020.04.20-23.24.29:517][565]LogTemp: Warning: 14.467501: No aiming is found!
+[2020.04.20-23.24.29:528][566]LogTemp: Warning: 14.478383: No aiming is found!
+[2020.04.20-23.24.29:539][567]LogTemp: Warning: 14.489241: No aiming is found!
+[2020.04.20-23.24.29:549][568]LogTemp: Warning: 14.499902: No aiming is found!
+[2020.04.20-23.24.29:560][569]LogTemp: Warning: 14.510806: No aiming is found!
+[2020.04.20-23.24.29:571][570]LogTemp: Warning: 14.521218: No aiming is found!
+[2020.04.20-23.24.29:581][571]LogTemp: Warning: 14.532000: No aiming is found!
+[2020.04.20-23.24.29:592][572]LogTemp: Warning: 14.542759: No aiming is found!
+[2020.04.20-23.24.29:602][573]LogTemp: Warning: 14.553109: No aiming is found!
+[2020.04.20-23.24.29:613][574]LogTemp: Warning: 14.563693: No aiming is found!
+[2020.04.20-23.24.29:623][575]LogTemp: Warning: 14.574301: No aiming is found!
+[2020.04.20-23.24.29:634][576]LogTemp: Warning: 14.584731: No aiming is found!
+[2020.04.20-23.24.29:644][577]LogTemp: Warning: 14.595201: No aiming is found!
+[2020.04.20-23.24.29:655][578]LogTemp: Warning: 14.605683: No aiming is found!
+[2020.04.20-23.24.29:664][579]LogTemp: Warning: 14.615910: No aiming is found!
+[2020.04.20-23.24.29:675][580]LogTemp: Warning: 14.626558: No aiming is found!
+[2020.04.20-23.24.29:685][581]LogTemp: Warning: 14.637040: No aiming is found!
+[2020.04.20-23.24.29:696][582]LogTemp: Warning: 14.647429: No aiming is found!
+[2020.04.20-23.24.29:706][583]LogTemp: Warning: 14.657939: No aiming is found!
+[2020.04.20-23.24.29:759][588]LogTemp: Warning: 14.710073: Firing
+[2020.04.20-23.24.29:957][607]LogTemp: Warning: 14.908756: No aiming is found!
+[2020.04.20-23.24.29:967][608]LogTemp: Warning: 14.919024: No aiming is found!
+[2020.04.20-23.24.29:978][609]LogTemp: Warning: 14.929691: No aiming is found!
+[2020.04.20-23.24.29:989][610]LogTemp: Warning: 14.940221: No aiming is found!
+[2020.04.20-23.24.29:999][611]LogTemp: Warning: 14.950556: No aiming is found!
+[2020.04.20-23.24.30:009][612]LogTemp: Warning: 14.961215: No aiming is found!
+[2020.04.20-23.24.30:020][613]LogTemp: Warning: 14.971773: No aiming is found!
+[2020.04.20-23.24.30:030][614]LogTemp: Warning: 14.981977: No aiming is found!
+[2020.04.20-23.24.30:041][615]LogTemp: Warning: 14.992484: No aiming is found!
+[2020.04.20-23.24.30:051][616]LogTemp: Warning: 15.002872: No aiming is found!
+[2020.04.20-23.24.30:062][617]LogTemp: Warning: 15.013524: No aiming is found!
+[2020.04.20-23.24.30:072][618]LogTemp: Warning: 15.024008: No aiming is found!
+[2020.04.20-23.24.30:083][619]LogTemp: Warning: 15.034359: No aiming is found!
+[2020.04.20-23.24.30:093][620]LogTemp: Warning: 15.044796: No aiming is found!
+[2020.04.20-23.24.30:104][621]LogTemp: Warning: 15.055486: No aiming is found!
+[2020.04.20-23.24.30:114][622]LogTemp: Warning: 15.065628: No aiming is found!
+[2020.04.20-23.24.30:124][623]LogTemp: Warning: 15.076123: No aiming is found!
+[2020.04.20-23.24.30:135][624]LogTemp: Warning: 15.086470: No aiming is found!
+[2020.04.20-23.24.30:145][625]LogTemp: Warning: 15.097170: No aiming is found!
+[2020.04.20-23.24.30:156][626]LogTemp: Warning: 15.107503: No aiming is found!
+[2020.04.20-23.24.30:166][627]LogTemp: Warning: 15.117745: No aiming is found!
+[2020.04.20-23.24.30:176][628]LogTemp: Warning: 15.128222: No aiming is found!
+[2020.04.20-23.24.30:187][629]LogTemp: Warning: 15.138715: No aiming is found!
+[2020.04.20-23.24.30:197][630]LogTemp: Warning: 15.148994: No aiming is found!
+[2020.04.20-23.24.30:208][631]LogTemp: Warning: 15.159553: No aiming is found!
+[2020.04.20-23.24.30:218][632]LogTemp: Warning: 15.169838: No aiming is found!
+[2020.04.20-23.24.30:229][633]LogTemp: Warning: 15.180417: No aiming is found!
+[2020.04.20-23.24.30:239][634]LogTemp: Warning: 15.190975: No aiming is found!
+[2020.04.20-23.24.30:250][635]LogTemp: Warning: 15.201197: No aiming is found!
+[2020.04.20-23.24.30:260][636]LogTemp: Warning: 15.211841: No aiming is found!
+[2020.04.20-23.24.30:271][637]LogTemp: Warning: 15.222423: No aiming is found!
+[2020.04.20-23.24.30:281][638]LogTemp: Warning: 15.232717: No aiming is found!
+[2020.04.20-23.24.30:291][639]LogTemp: Warning: 15.243223: No aiming is found!
+[2020.04.20-23.24.30:302][640]LogTemp: Warning: 15.253665: No aiming is found!
+[2020.04.20-23.24.30:312][641]LogTemp: Warning: 15.264134: No aiming is found!
+[2020.04.20-23.24.30:323][642]LogTemp: Warning: 15.274709: No aiming is found!
+[2020.04.20-23.24.30:333][643]LogTemp: Warning: 15.284902: No aiming is found!
+[2020.04.20-23.24.30:344][644]LogTemp: Warning: 15.295581: No aiming is found!
+[2020.04.20-23.24.30:354][645]LogTemp: Warning: 15.306081: No aiming is found!
+[2020.04.20-23.24.30:365][646]LogTemp: Warning: 15.316444: No aiming is found!
+[2020.04.20-23.24.30:375][647]LogTemp: Warning: 15.327203: No aiming is found!
+[2020.04.20-23.24.30:386][648]LogTemp: Warning: 15.337497: No aiming is found!
+[2020.04.20-23.24.30:396][649]LogTemp: Warning: 15.347998: No aiming is found!
+[2020.04.20-23.24.30:407][650]LogTemp: Warning: 15.358572: No aiming is found!
+[2020.04.20-23.24.30:417][651]LogTemp: Warning: 15.368785: No aiming is found!
+[2020.04.20-23.24.30:428][652]LogTemp: Warning: 15.379345: No aiming is found!
+[2020.04.20-23.24.30:438][653]LogTemp: Warning: 15.389952: No aiming is found!
+[2020.04.20-23.24.30:448][654]LogTemp: Warning: 15.400166: No aiming is found!
+[2020.04.20-23.24.30:459][655]LogTemp: Warning: 15.410778: No aiming is found!
+[2020.04.20-23.24.30:706][656]LogTemp: Warning: 15.420949: Firing
+[2020.04.20-23.24.30:706][656]LogTemp: Warning: 15.420949: No aiming is found!
+[2020.04.20-23.24.30:712][657]LogTemp: Warning: 15.663885: No aiming is found!
+[2020.04.20-23.24.30:721][658]LogTemp: Warning: 15.672218: No aiming is found!
+[2020.04.20-23.24.30:794][659]LogTemp: Warning: 15.744895: No aiming is found!
+[2020.04.20-23.24.30:851][660]LogTemp: Warning: 15.799166: No aiming is found!
+[2020.04.20-23.24.30:873][661]LogTemp: Warning: 15.820851: No aiming is found!
+[2020.04.20-23.24.30:883][662]LogTemp: Warning: 15.833428: No aiming is found!
+[2020.04.20-23.24.30:895][663]LogTemp: Warning: 15.844355: No aiming is found!
+[2020.04.20-23.24.31:366][707]LogTemp: Warning: 16.316483: No aiming is found!
+[2020.04.20-23.24.31:377][708]LogTemp: Warning: 16.327417: No aiming is found!
+[2020.04.20-23.24.31:387][709]LogTemp: Warning: 16.338062: No aiming is found!
+[2020.04.20-23.24.31:399][710]LogTemp: Warning: 16.348864: No aiming is found!
+[2020.04.20-23.24.31:421][712]LogTemp: Warning: 16.370554: No aiming is found!
+[2020.04.20-23.24.31:431][713]LogTemp: Warning: 16.381439: No aiming is found!
+[2020.04.20-23.24.31:442][714]LogTemp: Warning: 16.392155: No aiming is found!
+[2020.04.20-23.24.31:452][715]LogTemp: Warning: 16.402582: No aiming is found!
+[2020.04.20-23.24.31:463][716]LogTemp: Warning: 16.413263: No aiming is found!
+[2020.04.20-23.24.31:474][717]LogTemp: Warning: 16.423973: No aiming is found!
+[2020.04.20-23.24.31:485][718]LogTemp: Warning: 16.434565: No aiming is found!
+[2020.04.20-23.24.31:495][719]LogTemp: Warning: 16.444939: No aiming is found!
+[2020.04.20-23.24.31:505][720]LogTemp: Warning: 16.455534: No aiming is found!
+[2020.04.20-23.24.31:516][721]LogTemp: Warning: 16.465839: No aiming is found!
+[2020.04.20-23.24.31:526][722]LogTemp: Warning: 16.476334: No aiming is found!
+[2020.04.20-23.24.31:536][723]LogTemp: Warning: 16.486723: No aiming is found!
+[2020.04.20-23.24.31:547][724]LogTemp: Warning: 16.497252: No aiming is found!
+[2020.04.20-23.24.31:557][725]LogTemp: Warning: 16.507883: No aiming is found!
+[2020.04.20-23.24.31:567][726]LogTemp: Warning: 16.518253: No aiming is found!
+[2020.04.20-23.24.31:578][727]LogTemp: Warning: 16.528942: No aiming is found!
+[2020.04.20-23.24.31:589][728]LogTemp: Warning: 16.539650: No aiming is found!
+[2020.04.20-23.24.31:599][729]LogTemp: Warning: 16.550051: No aiming is found!
+[2020.04.20-23.24.31:609][730]LogTemp: Warning: 16.560537: No aiming is found!
+[2020.04.20-23.24.31:620][731]LogTemp: Warning: 16.570915: No aiming is found!
+[2020.04.20-23.24.31:631][732]LogTemp: Warning: 16.581388: No aiming is found!
+[2020.04.20-23.24.31:640][733]LogTemp: Warning: 16.592052: No aiming is found!
+[2020.04.20-23.24.31:651][734]LogTemp: Warning: 16.602261: No aiming is found!
+[2020.04.20-23.24.31:661][735]LogTemp: Warning: 16.612762: No aiming is found!
+[2020.04.20-23.24.31:672][736]LogTemp: Warning: 16.623466: No aiming is found!
+[2020.04.20-23.24.31:683][737]LogTemp: Warning: 16.634287: No aiming is found!
+[2020.04.20-23.24.31:692][738]LogTemp: Warning: 16.644316: No aiming is found!
+[2020.04.20-23.24.31:703][739]LogTemp: Warning: 16.654858: No aiming is found!
+[2020.04.20-23.24.31:714][740]LogTemp: Warning: 16.665312: No aiming is found!
+[2020.04.20-23.24.31:724][741]LogTemp: Warning: 16.675753: No aiming is found!
+[2020.04.20-23.24.31:735][742]LogTemp: Warning: 16.686089: No aiming is found!
+[2020.04.20-23.24.31:745][743]LogTemp: Warning: 16.696434: No aiming is found!
+[2020.04.20-23.24.31:756][744]LogTemp: Warning: 16.707069: No aiming is found!
+[2020.04.20-23.24.31:766][745]LogTemp: Warning: 16.717310: No aiming is found!
+[2020.04.20-23.24.31:777][746]LogTemp: Warning: 16.727907: No aiming is found!
+[2020.04.20-23.24.31:787][747]LogTemp: Warning: 16.738407: No aiming is found!
+[2020.04.20-23.24.31:797][748]LogTemp: Warning: 16.748728: No aiming is found!
+[2020.04.20-23.24.31:808][749]LogTemp: Warning: 16.759310: No aiming is found!
+[2020.04.20-23.24.31:818][750]LogTemp: Warning: 16.769581: No aiming is found!
+[2020.04.20-23.24.31:828][751]LogTemp: Warning: 16.780251: No aiming is found!
+[2020.04.20-23.24.31:839][752]LogTemp: Warning: 16.790758: No aiming is found!
+[2020.04.20-23.24.31:849][753]LogTemp: Warning: 16.801079: No aiming is found!
+[2020.04.20-23.24.31:859][754]LogTemp: Warning: 16.811272: No aiming is found!
+[2020.04.20-23.24.31:870][755]LogTemp: Warning: 16.821732: No aiming is found!
+[2020.04.20-23.24.31:880][756]LogTemp: Warning: 16.831898: No aiming is found!
+[2020.04.20-23.24.31:890][757]LogTemp: Warning: 16.842402: No aiming is found!
+[2020.04.20-23.24.31:901][758]LogTemp: Warning: 16.852459: No aiming is found!
+[2020.04.20-23.24.31:911][759]LogTemp: Warning: 16.862877: No aiming is found!
+[2020.04.20-23.24.31:921][760]LogTemp: Warning: 16.873270: No aiming is found!
+[2020.04.20-23.24.31:932][761]LogTemp: Warning: 16.883402: No aiming is found!
+[2020.04.20-23.24.31:942][762]LogTemp: Warning: 16.893993: No aiming is found!
+[2020.04.20-23.24.31:952][763]LogTemp: Warning: 16.904093: No aiming is found!
+[2020.04.20-23.24.31:963][764]LogTemp: Warning: 16.914574: No aiming is found!
+[2020.04.20-23.24.31:973][765]LogTemp: Warning: 16.924999: No aiming is found!
+[2020.04.20-23.24.31:983][766]LogTemp: Warning: 16.935148: No aiming is found!
+[2020.04.20-23.24.31:994][767]LogTemp: Warning: 16.945503: No aiming is found!
+[2020.04.20-23.24.32:004][768]LogTemp: Warning: 16.956154: No aiming is found!
+[2020.04.20-23.24.32:014][769]LogTemp: Warning: 16.966181: No aiming is found!
+[2020.04.20-23.24.32:025][770]LogTemp: Warning: 16.976637: No aiming is found!
+[2020.04.20-23.24.32:035][771]LogTemp: Warning: 16.986811: No aiming is found!
+[2020.04.20-23.24.32:046][772]LogTemp: Warning: 16.997337: No aiming is found!
+[2020.04.20-23.24.32:056][773]LogTemp: Warning: 17.007645: No aiming is found!
+[2020.04.20-23.24.32:066][774]LogTemp: Warning: 17.017729: No aiming is found!
+[2020.04.20-23.24.32:076][775]LogTemp: Warning: 17.028067: No aiming is found!
+[2020.04.20-23.24.32:087][776]LogTemp: Warning: 17.038635: No aiming is found!
+[2020.04.20-23.24.32:097][777]LogTemp: Warning: 17.048693: No aiming is found!
+[2020.04.20-23.24.32:107][778]LogTemp: Warning: 17.059187: No aiming is found!
+[2020.04.20-23.24.32:117][779]LogTemp: Warning: 17.069254: No aiming is found!
+[2020.04.20-23.24.32:129][780]LogTemp: Warning: 17.079720: Firing
+[2020.04.20-23.24.32:130][780]LogTemp: Warning: 17.079720: No aiming is found!
+[2020.04.20-23.24.32:139][781]LogTemp: Warning: 17.090145: No aiming is found!
+[2020.04.20-23.24.32:149][782]LogTemp: Warning: 17.100351: No aiming is found!
+[2020.04.20-23.24.32:159][783]LogTemp: Warning: 17.110846: No aiming is found!
+[2020.04.20-23.24.32:169][784]LogTemp: Warning: 17.120916: No aiming is found!
+[2020.04.20-23.24.32:180][785]LogTemp: Warning: 17.131420: No aiming is found!
+[2020.04.20-23.24.32:190][786]LogTemp: Warning: 17.141806: No aiming is found!
+[2020.04.20-23.24.32:200][787]LogTemp: Warning: 17.151930: No aiming is found!
+[2020.04.20-23.24.32:211][788]LogTemp: Warning: 17.162401: No aiming is found!
+[2020.04.20-23.24.32:222][789]LogTemp: Warning: 17.172907: No aiming is found!
+[2020.04.20-23.24.32:231][790]LogTemp: Warning: 17.183105: No aiming is found!
+[2020.04.20-23.24.32:242][791]LogTemp: Warning: 17.193558: No aiming is found!
+[2020.04.20-23.24.32:252][792]LogTemp: Warning: 17.203869: No aiming is found!
+[2020.04.20-23.24.32:262][793]LogTemp: Warning: 17.214178: No aiming is found!
+[2020.04.20-23.24.32:273][794]LogTemp: Warning: 17.224581: No aiming is found!
+[2020.04.20-23.24.32:283][795]LogTemp: Warning: 17.234768: No aiming is found!
+[2020.04.20-23.24.32:293][796]LogTemp: Warning: 17.245100: No aiming is found!
+[2020.04.20-23.24.32:304][797]LogTemp: Warning: 17.255501: No aiming is found!
+[2020.04.20-23.24.32:314][798]LogTemp: Warning: 17.265604: No aiming is found!
+[2020.04.20-23.24.32:324][799]LogTemp: Warning: 17.275955: No aiming is found!
+[2020.04.20-23.24.32:334][800]LogTemp: Warning: 17.286091: No aiming is found!
+[2020.04.20-23.24.32:587][801]LogTemp: Warning: 17.296513: No aiming is found!
+[2020.04.20-23.24.32:596][802]LogTemp: Warning: 17.545187: No aiming is found!
+[2020.04.20-23.24.32:831][806]LogTemp: Warning: 17.783295: No aiming is found!
+[2020.04.20-23.24.32:881][807]LogTemp: Warning: 17.832544: No aiming is found!
+[2020.04.20-23.24.32:895][808]LogTemp: Warning: 17.846579: No aiming is found!
+[2020.04.20-23.24.32:908][809]LogTemp: Warning: 17.860069: No aiming is found!
+[2020.04.20-23.24.32:917][810]LogTemp: Warning: 17.868814: No aiming is found!
+[2020.04.20-23.24.32:929][811]LogTemp: Warning: 17.881350: No aiming is found!
+[2020.04.20-23.24.32:942][812]LogTemp: Warning: 17.893892: No aiming is found!
+[2020.04.20-23.24.32:954][813]LogTemp: Warning: 17.906162: No aiming is found!
+[2020.04.20-23.24.32:966][814]LogTemp: Warning: 17.918274: No aiming is found!
+[2020.04.20-23.24.32:979][815]LogTemp: Warning: 17.930695: No aiming is found!
+[2020.04.20-23.24.32:991][816]LogTemp: Warning: 17.943188: No aiming is found!
+[2020.04.20-23.24.33:004][817]LogTemp: Warning: 17.955673: No aiming is found!
+[2020.04.20-23.24.33:016][818]LogTemp: Warning: 17.967754: No aiming is found!
+[2020.04.20-23.24.33:029][819]LogTemp: Warning: 17.980276: No aiming is found!
+[2020.04.20-23.24.33:042][820]LogTemp: Warning: 17.992735: No aiming is found!
+[2020.04.20-23.24.33:053][821]LogTemp: Warning: 18.004284: No aiming is found!
+[2020.04.20-23.24.33:065][822]LogTemp: Warning: 18.015736: No aiming is found!
+[2020.04.20-23.24.33:076][823]LogTemp: Warning: 18.027233: No aiming is found!
+[2020.04.20-23.24.33:088][824]LogTemp: Warning: 18.038876: No aiming is found!
+[2020.04.20-23.24.33:100][825]LogTemp: Warning: 18.050247: No aiming is found!
+[2020.04.20-23.24.33:111][826]LogTemp: Warning: 18.061903: No aiming is found!
+[2020.04.20-23.24.33:122][827]LogTemp: Warning: 18.073469: No aiming is found!
+[2020.04.20-23.24.33:134][828]LogTemp: Warning: 18.084965: No aiming is found!
+[2020.04.20-23.24.33:146][829]LogTemp: Warning: 18.096504: No aiming is found!
+[2020.04.20-23.24.33:156][830]LogTemp: Warning: 18.108202: No aiming is found!
+[2020.04.20-23.24.33:168][831]LogTemp: Warning: 18.119478: No aiming is found!
+[2020.04.20-23.24.33:179][832]LogTemp: Warning: 18.131062: No aiming is found!
+[2020.04.20-23.24.33:191][833]LogTemp: Warning: 18.142570: No aiming is found!
+[2020.04.20-23.24.33:202][834]LogTemp: Warning: 18.153938: No aiming is found!
+[2020.04.20-23.24.33:214][835]LogTemp: Warning: 18.165476: No aiming is found!
+[2020.04.20-23.24.33:226][836]LogTemp: Warning: 18.177433: No aiming is found!
+[2020.04.20-23.24.33:237][837]LogTemp: Warning: 18.188940: No aiming is found!
+[2020.04.20-23.24.33:248][838]LogTemp: Warning: 18.199963: No aiming is found!
+[2020.04.20-23.24.33:260][839]LogTemp: Warning: 18.211363: No aiming is found!
+[2020.04.20-23.24.33:271][840]LogTemp: Warning: 18.223028: No aiming is found!
+[2020.04.20-23.24.33:282][841]LogTemp: Warning: 18.233959: No aiming is found!
+[2020.04.20-23.24.33:294][842]LogTemp: Warning: 18.245499: No aiming is found!
+[2020.04.20-23.24.33:305][843]LogTemp: Warning: 18.256924: No aiming is found!
+[2020.04.20-23.24.33:316][844]LogTemp: Warning: 18.267824: No aiming is found!
+[2020.04.20-23.24.33:328][845]LogTemp: Warning: 18.279251: No aiming is found!
+[2020.04.20-23.24.33:339][846]LogTemp: Warning: 18.290588: No aiming is found!
+[2020.04.20-23.24.33:350][847]LogTemp: Warning: 18.301695: No aiming is found!
+[2020.04.20-23.24.33:361][848]LogTemp: Warning: 18.312969: No aiming is found!
+[2020.04.20-23.24.33:373][849]LogTemp: Warning: 18.324320: No aiming is found!
+[2020.04.20-23.24.33:384][850]LogTemp: Warning: 18.335312: No aiming is found!
+[2020.04.20-23.24.33:396][851]LogTemp: Warning: 18.346756: No aiming is found!
+[2020.04.20-23.24.33:407][852]LogTemp: Warning: 18.358080: No aiming is found!
+[2020.04.20-23.24.33:418][853]LogTemp: Warning: 18.369091: No aiming is found!
+[2020.04.20-23.24.33:429][854]LogTemp: Warning: 18.380527: No aiming is found!
+[2020.04.20-23.24.33:441][855]LogTemp: Warning: 18.391914: No aiming is found!
+[2020.04.20-23.24.33:452][856]LogTemp: Warning: 18.403385: No aiming is found!
+[2020.04.20-23.24.33:464][857]LogTemp: Warning: 18.414953: No aiming is found!
+[2020.04.20-23.24.33:475][858]LogTemp: Warning: 18.426538: No aiming is found!
+[2020.04.20-23.24.33:486][859]LogTemp: Warning: 18.437822: No aiming is found!
+[2020.04.20-23.24.33:498][860]LogTemp: Warning: 18.449198: No aiming is found!
+[2020.04.20-23.24.33:510][861]LogTemp: Warning: 18.460798: No aiming is found!
+[2020.04.20-23.24.33:521][862]LogTemp: Warning: 18.472218: No aiming is found!
+[2020.04.20-23.24.33:533][863]LogTemp: Warning: 18.483601: No aiming is found!
+[2020.04.20-23.24.33:544][864]LogTemp: Warning: 18.495373: No aiming is found!
+[2020.04.20-23.24.33:556][865]LogTemp: Warning: 18.507095: No aiming is found!
+[2020.04.20-23.24.33:567][866]LogTemp: Warning: 18.518549: No aiming is found!
+[2020.04.20-23.24.33:579][867]LogTemp: Warning: 18.530338: No aiming is found!
+[2020.04.20-23.24.33:591][868]LogTemp: Warning: 18.542253: No aiming is found!
+[2020.04.20-23.24.33:603][869]LogTemp: Warning: 18.553776: No aiming is found!
+[2020.04.20-23.24.33:614][870]LogTemp: Warning: 18.565262: No aiming is found!
+[2020.04.20-23.24.33:626][871]LogTemp: Warning: 18.577110: No aiming is found!
+[2020.04.20-23.24.33:637][872]LogTemp: Warning: 18.588579: No aiming is found!
+[2020.04.20-23.24.33:648][873]LogTemp: Warning: 18.599922: No aiming is found!
+[2020.04.20-23.24.33:660][874]LogTemp: Warning: 18.611540: No aiming is found!
+[2020.04.20-23.24.33:671][875]LogTemp: Warning: 18.623198: No aiming is found!
+[2020.04.20-23.24.33:683][876]LogTemp: Warning: 18.634628: No aiming is found!
+[2020.04.20-23.24.33:695][877]LogTemp: Warning: 18.646250: No aiming is found!
+[2020.04.20-23.24.33:707][878]LogTemp: Warning: 18.657864: No aiming is found!
+[2020.04.20-23.24.33:719][879]LogTemp: Warning: 18.669239: No aiming is found!
+[2020.04.20-23.24.33:729][880]LogTemp: Warning: 18.680824: No aiming is found!
+[2020.04.20-23.24.33:742][881]LogTemp: Warning: 18.692633: No aiming is found!
+[2020.04.20-23.24.33:753][882]LogTemp: Warning: 18.704353: No aiming is found!
+[2020.04.20-23.24.33:764][883]LogTemp: Warning: 18.715860: No aiming is found!
+[2020.04.20-23.24.33:776][884]LogTemp: Warning: 18.727598: No aiming is found!
+[2020.04.20-23.24.33:788][885]LogTemp: Warning: 18.739231: No aiming is found!
+[2020.04.20-23.24.33:799][886]LogTemp: Warning: 18.750647: No aiming is found!
+[2020.04.20-23.24.33:811][887]LogTemp: Warning: 18.762239: No aiming is found!
+[2020.04.20-23.24.33:822][888]LogTemp: Warning: 18.773884: No aiming is found!
+[2020.04.20-23.24.33:834][889]LogTemp: Warning: 18.785328: No aiming is found!
+[2020.04.20-23.24.33:845][890]LogTemp: Warning: 18.796848: No aiming is found!
+[2020.04.20-23.24.33:857][891]LogTemp: Warning: 18.808506: No aiming is found!
+[2020.04.20-23.24.33:868][892]LogTemp: Warning: 18.819885: No aiming is found!
+[2020.04.20-23.24.33:880][893]LogTemp: Warning: 18.831499: No aiming is found!
+[2020.04.20-23.24.33:891][894]LogTemp: Warning: 18.843065: No aiming is found!
+[2020.04.20-23.24.33:903][895]LogTemp: Warning: 18.854727: No aiming is found!
+[2020.04.20-23.24.33:914][896]LogTemp: Warning: 18.866232: No aiming is found!
+[2020.04.20-23.24.33:926][897]LogTemp: Warning: 18.877932: No aiming is found!
+[2020.04.20-23.24.33:938][898]LogTemp: Warning: 18.889450: No aiming is found!
+[2020.04.20-23.24.33:949][899]LogTemp: Warning: 18.900841: No aiming is found!
+[2020.04.20-23.24.33:961][900]LogTemp: Warning: 18.912415: No aiming is found!
+[2020.04.20-23.24.33:972][901]LogTemp: Warning: 18.924101: No aiming is found!
+[2020.04.20-23.24.33:984][902]LogTemp: Warning: 18.935419: No aiming is found!
+[2020.04.20-23.24.33:996][903]LogTemp: Warning: 18.947227: No aiming is found!
+[2020.04.20-23.24.34:007][904]LogTemp: Warning: 18.958813: No aiming is found!
+[2020.04.20-23.24.34:019][905]LogTemp: Warning: 18.970167: No aiming is found!
+[2020.04.20-23.24.34:030][906]LogTemp: Warning: 18.981920: No aiming is found!
+[2020.04.20-23.24.34:042][907]LogTemp: Warning: 18.993576: No aiming is found!
+[2020.04.20-23.24.34:054][908]LogTemp: Warning: 19.005280: No aiming is found!
+[2020.04.20-23.24.34:065][909]LogTemp: Warning: 19.016623: No aiming is found!
+[2020.04.20-23.24.34:077][910]LogTemp: Warning: 19.028332: No aiming is found!
+[2020.04.20-23.24.34:088][911]LogTemp: Warning: 19.040070: No aiming is found!
+[2020.04.20-23.24.34:100][912]LogTemp: Warning: 19.051502: No aiming is found!
+[2020.04.20-23.24.34:112][913]LogTemp: Warning: 19.063295: No aiming is found!
+[2020.04.20-23.24.34:123][914]LogTemp: Warning: 19.074894: No aiming is found!
+[2020.04.20-23.24.34:135][915]LogTemp: Warning: 19.086248: No aiming is found!
+[2020.04.20-23.24.34:146][916]LogTemp: Warning: 19.098103: No aiming is found!
+[2020.04.20-23.24.34:158][917]LogTemp: Warning: 19.109848: No aiming is found!
+[2020.04.20-23.24.34:170][918]LogTemp: Warning: 19.121281: No aiming is found!
+[2020.04.20-23.24.34:183][919]LogTemp: Warning: 19.133112: Firing
+[2020.04.20-23.24.34:183][919]LogTemp: Warning: 19.133112: No aiming is found!
+[2020.04.20-23.24.34:193][920]LogTemp: Warning: 19.144613: No aiming is found!
+[2020.04.20-23.24.34:205][921]LogTemp: Warning: 19.156355: No aiming is found!
+[2020.04.20-23.24.34:217][922]LogTemp: Warning: 19.167788: No aiming is found!
+[2020.04.20-23.24.34:228][923]LogTemp: Warning: 19.179514: No aiming is found!
+[2020.04.20-23.24.34:240][924]LogTemp: Warning: 19.191235: No aiming is found!
+[2020.04.20-23.24.34:251][925]LogTemp: Warning: 19.202705: No aiming is found!
+[2020.04.20-23.24.34:263][926]LogTemp: Warning: 19.214458: No aiming is found!
+[2020.04.20-23.24.34:275][927]LogTemp: Warning: 19.226070: No aiming is found!
+[2020.04.20-23.24.34:286][928]LogTemp: Warning: 19.237503: No aiming is found!
+[2020.04.20-23.24.34:298][929]LogTemp: Warning: 19.249174: No aiming is found!
+[2020.04.20-23.24.34:310][930]LogTemp: Warning: 19.260876: No aiming is found!
+[2020.04.20-23.24.34:322][931]LogTemp: Warning: 19.272675: No aiming is found!
+[2020.04.20-23.24.34:333][932]LogTemp: Warning: 19.284216: No aiming is found!
+[2020.04.20-23.24.34:345][933]LogTemp: Warning: 19.295986: No aiming is found!
+[2020.04.20-23.24.34:357][934]LogTemp: Warning: 19.307709: No aiming is found!
+[2020.04.20-23.24.34:368][935]LogTemp: Warning: 19.319191: No aiming is found!
+[2020.04.20-23.24.34:380][936]LogTemp: Warning: 19.330675: No aiming is found!
+[2020.04.20-23.24.34:391][937]LogTemp: Warning: 19.342445: No aiming is found!
+[2020.04.20-23.24.34:403][938]LogTemp: Warning: 19.354198: No aiming is found!
+[2020.04.20-23.24.34:414][939]LogTemp: Warning: 19.365501: No aiming is found!
+[2020.04.20-23.24.34:426][940]LogTemp: Warning: 19.377245: No aiming is found!
+[2020.04.20-23.24.34:438][941]LogTemp: Warning: 19.388788: No aiming is found!
+[2020.04.20-23.24.34:449][942]LogTemp: Warning: 19.400253: No aiming is found!
+[2020.04.20-23.24.34:461][943]LogTemp: Warning: 19.411953: No aiming is found!
+[2020.04.20-23.24.34:473][944]LogTemp: Warning: 19.423878: No aiming is found!
+[2020.04.20-23.24.34:484][945]LogTemp: Warning: 19.435144: No aiming is found!
+[2020.04.20-23.24.34:496][946]LogTemp: Warning: 19.446947: No aiming is found!
+[2020.04.20-23.24.34:507][947]LogTemp: Warning: 19.458456: No aiming is found!
+[2020.04.20-23.24.34:519][948]LogTemp: Warning: 19.469969: No aiming is found!
+[2020.04.20-23.24.34:770][949]LogTemp: Warning: 19.481710: No aiming is found!
+[2020.04.20-23.24.40:676][396]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.24.40:677][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-23.24.40:718][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.20-23.24.40:718][396]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.24.40:773][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-23.24.40:796][396]LogUObjectHash: Compacting FUObjectHashTables data took   5.11ms
+[2020.04.20-23.24.40:829][397]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.04.20-23.24.42:830][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.20-23.24.44:491][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.20-23.24.51:498][327]BlueprintLog: New page: Compile Tank_BP
+[2020.04.20-23.24.51:735][327]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2020.04.20-23.24.52:118][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset" SILENT=true
+[2020.04.20-23.24.52:285][363]LogSavePackage: Moving '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Saved/Tank_BPCC36257446369CBC44D018BBD06F1741.tmp' to '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Tank/Tank_BP.uasset'
+[2020.04.20-23.24.54:843][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BattleGround" FILE="../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.04.20-23.24.54:886][562]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.04.20-23.24.56:270][562]LogSavePackage: Moving '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Saved/BattleGround0B8BED9A401A8BBB8FD9278D80777CFE.tmp' to '../../../../../Unreal Project/BattleTank/BattleTank/BattleTank/Content/Levels/BattleGround.umap'
+[2020.04.20-23.24.57:679][620]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.20-23.24.57:705][620]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.24.57:706][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.20-23.24.57:706][620]PIE: New page: PIE session: BattleGround (Apr 20, 2020, 3:24:57 PM)
+[2020.04.20-23.24.57:706][620]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BattleGround
+[2020.04.20-23.24.57:796][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089311s)
+[2020.04.20-23.24.57:797][620]LogAIModule: Creating AISystem for world BattleGround
+[2020.04.20-23.24.57:797][620]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2020.04.20-23.24.57:797][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BattleGround.BattleGround to /Game/Levels/UEDPIE_0_BattleGround.BattleGround (0.090422s)
+[2020.04.20-23.24.57:839][620]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2020.04.20-23.24.57:865][620]LogInit: XAudio2 using 'Headset Earphone (HyperX Virtual Surround Sound)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.04.20-23.24.57:876][620]LogInit: FAudioDevice initialized.
+[2020.04.20-23.24.57:903][620]LogLoad: Game class is 'BattleTankGameMode_BP_C'
+[2020.04.20-23.24.57:906][620]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BattleGround.BattleGround up for play (max tick rate 0) at 2020.04.20-19.24.57
+[2020.04.20-23.24.57:907][620]LogWorld: Bringing up level for play took: 0.002962
+[2020.04.20-23.24.57:921][620]LogTemp: Warning: Tank AI controller found player: Tank_BP_C_0
+[2020.04.20-23.24.57:921][620]LogTemp: Warning: Tank AI controller found player: Tank_BP_C_0
+[2020.04.20-23.24.57:921][620]LogTemp: Warning: Tank player controller possesing: Tank_BP_C_0
+[2020.04.20-23.24.57:921][620]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BattleGround -0.684
+[2020.04.20-23.24.57:921][620]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.24.58:478][660]LogTemp: Warning: 0.811209: Firing
+[2020.04.20-23.24.59:391][727]LogTemp: Warning: 1.723461: Firing
+[2020.04.20-23.25.00:503][752]LogTemp: Warning: 2.834373: Firing
+[2020.04.20-23.25.01:140][799]LogTemp: Warning: 3.472988: Firing
+[2020.04.20-23.25.01:547][833]LogTemp: Warning: 3.879886: Firing
+[2020.04.20-23.25.02:061][876]LogTemp: Warning: 4.393422: Firing
+[2020.04.20-23.25.02:448][910]LogTemp: Warning: 4.779431: Firing
+[2020.04.20-23.25.02:661][929]LogTemp: Warning: 4.993308: Firing
+[2020.04.20-23.25.02:885][949]LogTemp: Warning: 5.217952: Firing
+[2020.04.20-23.25.03:131][971]LogTemp: Warning: 5.464183: Firing
+[2020.04.20-23.25.03:527][986]LogTemp: Warning: 5.631562: Firing
+[2020.04.20-23.25.05:467][147]LogTemp: Warning: 7.800442: Firing
+[2020.04.20-23.25.06:012][177]LogTemp: Warning: 8.113710: Firing
+[2020.04.20-23.25.06:336][195]LogTemp: Warning: 8.669337: Firing
+[2020.04.20-23.25.06:506][211]LogTemp: Warning: 8.839177: Firing
+[2020.04.20-23.25.06:821][241]LogTemp: Warning: 9.153479: Firing
+[2020.04.20-23.25.07:259][261]LogTemp: Warning: 9.362267: Firing
+[2020.04.20-23.25.10:489][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.25.10:490][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-23.25.10:532][549]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.20-23.25.10:533][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BattleGround.BattleGround:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround' with GeneratedClass '/Game/Levels/BattleGround.BattleGround_C' with ClassGeneratedBy '/Game/Levels/BattleGround.BattleGround:PersistentLevel.BattleGround'
+[2020.04.20-23.25.10:578][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.20-23.25.10:585][549]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.04.20-23.25.10:616][550]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.04.20-23.25.11:880][658]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.04.20-23.25.12:908][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.04.20-23.25.16:462][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.04.20-23.25.16:636][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.04.20-23.25.16:862][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.20-23.25.17:032][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.04.20-23.25.17:139][ 38]LogSlate: Window 'BattleTank - Unreal Editor' being destroyed
+[2020.04.20-23.25.17:143][ 38]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft Pinyin).
+[2020.04.20-23.25.17:605][ 39]Cmd: QUIT_EDITOR
+[2020.04.20-23.25.19:157][ 39]LogExit: Preparing to exit.
+[2020.04.20-23.25.21:130][ 39]LogExit: Editor shut down
+[2020.04.20-23.25.21:133][ 39]LogExit: Transaction tracking system shut down
+[2020.04.20-23.25.23:211][ 39]LogExit: Object subsystem successfully closed.
+[2020.04.20-23.25.23:456][ 39]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.04.20-23.25.23:581][ 39]LogD3D11RHI: Shutdown
+[2020.04.20-23.25.23:581][ 39]LogD3D11RHI: CleanupD3DDevice
+[2020.04.20-23.25.23:711][ 39]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.04.20-23.25.23:711][ 39]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.20-23.25.23:718][ 39]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.04.20-23.25.23:718][ 39]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.20-23.25.23:718][ 39]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.04.20-23.25.23:718][ 39]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.04.20-23.25.23:954][ 39]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.04.20-23.25.25:700][ 39]LogModuleManager: Shutting down and abandoning module BattleTank (658)
+[2020.04.20-23.25.25:700][ 39]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (655)
+[2020.04.20-23.25.25:700][ 39]LogModuleManager: Shutting down and abandoning module Voice (653)
+[2020.04.20-23.25.25:718][ 39]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (650)
+[2020.04.20-23.25.25:728][ 39]LogModuleManager: Shutting down and abandoning module BlueprintGraph (648)
+[2020.04.20-23.25.25:728][ 39]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (646)
+[2020.04.20-23.25.25:728][ 39]LogModuleManager: Shutting down and abandoning module SceneOutliner (644)
+[2020.04.20-23.25.25:728][ 39]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
+[2020.04.20-23.25.25:802][ 39]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
+[2020.04.20-23.25.25:802][ 39]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2020.04.20-23.25.25:802][ 39]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2020.04.20-23.25.25:812][ 39]LogModuleManager: Shutting down and abandoning module MeshBuilder (634)
+[2020.04.20-23.25.25:819][ 39]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2020.04.20-23.25.25:825][ 39]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2020.04.20-23.25.25:825][ 39]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2020.04.20-23.25.25:856][ 39]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2020.04.20-23.25.25:862][ 39]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2020.04.20-23.25.25:862][ 39]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2020.04.20-23.25.25:862][ 39]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2020.04.20-23.25.25:865][ 39]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2020.04.20-23.25.25:865][ 39]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2020.04.20-23.25.25:865][ 39]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2020.04.20-23.25.25:870][ 39]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2020.04.20-23.25.25:870][ 39]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2020.04.20-23.25.25:953][ 39]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2020.04.20-23.25.25:953][ 39]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2020.04.20-23.25.25:953][ 39]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2020.04.20-23.25.25:970][ 39]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2020.04.20-23.25.26:020][ 39]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2020.04.20-23.25.26:021][ 39]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2020.04.20-23.25.26:060][ 39]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2020.04.20-23.25.26:069][ 39]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2020.04.20-23.25.26:069][ 39]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2020.04.20-23.25.26:070][ 39]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2020.04.20-23.25.26:074][ 39]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2020.04.20-23.25.26:074][ 39]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2020.04.20-23.25.26:074][ 39]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2020.04.20-23.25.26:093][ 39]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2020.04.20-23.25.26:148][ 39]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2020.04.20-23.25.26:150][ 39]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2020.04.20-23.25.26:150][ 39]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2020.04.20-23.25.26:150][ 39]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2020.04.20-23.25.26:176][ 39]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2020.04.20-23.25.26:176][ 39]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2020.04.20-23.25.26:176][ 39]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2020.04.20-23.25.26:177][ 39]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2020.04.20-23.25.26:177][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2020.04.20-23.25.26:177][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2020.04.20-23.25.26:214][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2020.04.20-23.25.26:220][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2020.04.20-23.25.26:221][ 39]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2020.04.20-23.25.26:221][ 39]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2020.04.20-23.25.26:227][ 39]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2020.04.20-23.25.26:227][ 39]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2020.04.20-23.25.26:231][ 39]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2020.04.20-23.25.26:231][ 39]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2020.04.20-23.25.26:231][ 39]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2020.04.20-23.25.26:251][ 39]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2020.04.20-23.25.26:261][ 39]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2020.04.20-23.25.26:279][ 39]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2020.04.20-23.25.26:321][ 39]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2020.04.20-23.25.26:338][ 39]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2020.04.20-23.25.26:339][ 39]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2020.04.20-23.25.26:351][ 39]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2020.04.20-23.25.26:352][ 39]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2020.04.20-23.25.26:364][ 39]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2020.04.20-23.25.28:030][ 39]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2020.04.20-23.25.28:031][ 39]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2020.04.20-23.25.28:031][ 39]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2020.04.20-23.25.28:031][ 39]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2020.04.20-23.25.28:031][ 39]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2020.04.20-23.25.28:038][ 39]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2020.04.20-23.25.28:043][ 39]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2020.04.20-23.25.28:051][ 39]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2020.04.20-23.25.28:064][ 39]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2020.04.20-23.25.28:066][ 39]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2020.04.20-23.25.28:066][ 39]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2020.04.20-23.25.28:072][ 39]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2020.04.20-23.25.28:072][ 39]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2020.04.20-23.25.28:075][ 39]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2020.04.20-23.25.28:075][ 39]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2020.04.20-23.25.28:075][ 39]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2020.04.20-23.25.28:299][ 39]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2020.04.20-23.25.28:315][ 39]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2020.04.20-23.25.28:324][ 39]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2020.04.20-23.25.28:392][ 39]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2020.04.20-23.25.28:408][ 39]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2020.04.20-23.25.28:414][ 39]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2020.04.20-23.25.28:430][ 39]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2020.04.20-23.25.28:486][ 39]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2020.04.20-23.25.28:509][ 39]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2020.04.20-23.25.28:516][ 39]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2020.04.20-23.25.28:561][ 39]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2020.04.20-23.25.28:561][ 39]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2020.04.20-23.25.28:573][ 39]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2020.04.20-23.25.28:574][ 39]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2020.04.20-23.25.28:623][ 39]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2020.04.20-23.25.28:659][ 39]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2020.04.20-23.25.28:659][ 39]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2020.04.20-23.25.28:659][ 39]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2020.04.20-23.25.28:678][ 39]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2020.04.20-23.25.28:686][ 39]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2020.04.20-23.25.28:688][ 39]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2020.04.20-23.25.28:688][ 39]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2020.04.20-23.25.28:699][ 39]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2020.04.20-23.25.28:704][ 39]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2020.04.20-23.25.28:710][ 39]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2020.04.20-23.25.28:710][ 39]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2020.04.20-23.25.28:715][ 39]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2020.04.20-23.25.28:715][ 39]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2020.04.20-23.25.28:721][ 39]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2020.04.20-23.25.28:721][ 39]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2020.04.20-23.25.28:721][ 39]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2020.04.20-23.25.28:725][ 39]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2020.04.20-23.25.28:730][ 39]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2020.04.20-23.25.28:730][ 39]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2020.04.20-23.25.28:730][ 39]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2020.04.20-23.25.28:730][ 39]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2020.04.20-23.25.28:730][ 39]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2020.04.20-23.25.28:730][ 39]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2020.04.20-23.25.28:754][ 39]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2020.04.20-23.25.28:754][ 39]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2020.04.20-23.25.28:764][ 39]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2020.04.20-23.25.28:764][ 39]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2020.04.20-23.25.28:767][ 39]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2020.04.20-23.25.29:025][ 39]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2020.04.20-23.25.29:040][ 39]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2020.04.20-23.25.29:040][ 39]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2020.04.20-23.25.29:051][ 39]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2020.04.20-23.25.29:051][ 39]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2020.04.20-23.25.29:061][ 39]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2020.04.20-23.25.29:068][ 39]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2020.04.20-23.25.29:068][ 39]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2020.04.20-23.25.29:080][ 39]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2020.04.20-23.25.29:080][ 39]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2020.04.20-23.25.29:080][ 39]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2020.04.20-23.25.29:080][ 39]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2020.04.20-23.25.29:080][ 39]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2020.04.20-23.25.29:080][ 39]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2020.04.20-23.25.29:080][ 39]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2020.04.20-23.25.29:103][ 39]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2020.04.20-23.25.29:104][ 39]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2020.04.20-23.25.29:104][ 39]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2020.04.20-23.25.29:104][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2020.04.20-23.25.29:104][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2020.04.20-23.25.29:104][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2020.04.20-23.25.29:113][ 39]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2020.04.20-23.25.29:113][ 39]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2020.04.20-23.25.29:113][ 39]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2020.04.20-23.25.29:113][ 39]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2020.04.20-23.25.29:123][ 39]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2020.04.20-23.25.29:123][ 39]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2020.04.20-23.25.29:123][ 39]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.04.20-23.25.29:123][ 39]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.04.20-23.25.29:123][ 39]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.04.20-23.25.29:123][ 39]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.04.20-23.25.29:123][ 39]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.04.20-23.25.29:123][ 39]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2020.04.20-23.25.29:123][ 39]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2020.04.20-23.25.29:132][ 39]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.04.20-23.25.29:132][ 39]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.04.20-23.25.29:144][ 39]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.04.20-23.25.29:165][ 39]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2020.04.20-23.25.29:174][ 39]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2020.04.20-23.25.29:174][ 39]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2020.04.20-23.25.29:174][ 39]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2020.04.20-23.25.29:179][ 39]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2020.04.20-23.25.29:179][ 39]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2020.04.20-23.25.29:179][ 39]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2020.04.20-23.25.29:188][ 39]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2020.04.20-23.25.29:221][ 39]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2020.04.20-23.25.29:231][ 39]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2020.04.20-23.25.29:236][ 39]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2020.04.20-23.25.29:236][ 39]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2020.04.20-23.25.29:236][ 39]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2020.04.20-23.25.29:271][ 39]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2020.04.20-23.25.29:271][ 39]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2020.04.20-23.25.29:274][ 39]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2020.04.20-23.25.29:274][ 39]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2020.04.20-23.25.29:274][ 39]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2020.04.20-23.25.29:291][ 39]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.04.20-23.25.29:291][ 39]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.04.20-23.25.29:291][ 39]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.04.20-23.25.29:300][ 39]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.04.20-23.25.29:300][ 39]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.04.20-23.25.29:300][ 39]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.04.20-23.25.29:300][ 39]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.04.20-23.25.29:401][ 39]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.04.20-23.25.29:510][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.04.20-23.25.29:510][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.04.20-23.25.29:510][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.04.20-23.25.29:522][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.04.20-23.25.29:523][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.04.20-23.25.29:531][ 39]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.04.20-23.25.29:531][ 39]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.04.20-23.25.29:531][ 39]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.04.20-23.25.29:531][ 39]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.04.20-23.25.29:536][ 39]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.04.20-23.25.29:547][ 39]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.04.20-23.25.29:547][ 39]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.04.20-23.25.29:547][ 39]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.04.20-23.25.29:558][ 39]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.04.20-23.25.29:581][ 39]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.04.20-23.25.29:607][ 39]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.04.20-23.25.29:617][ 39]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.04.20-23.25.29:617][ 39]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.04.20-23.25.29:635][ 39]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.04.20-23.25.29:639][ 39]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.04.20-23.25.29:655][ 39]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.04.20-23.25.29:655][ 39]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.04.20-23.25.29:655][ 39]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.04.20-23.25.29:655][ 39]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.04.20-23.25.29:660][ 39]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.04.20-23.25.29:675][ 39]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.04.20-23.25.29:675][ 39]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.04.20-23.25.29:676][ 39]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.04.20-23.25.29:676][ 39]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.04.20-23.25.29:686][ 39]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.04.20-23.25.29:687][ 39]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.04.20-23.25.29:687][ 39]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.04.20-23.25.29:687][ 39]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.04.20-23.25.29:696][ 39]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.04.20-23.25.29:708][ 39]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.04.20-23.25.29:708][ 39]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.04.20-23.25.29:752][ 39]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.04.20-23.25.29:758][ 39]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.04.20-23.25.29:765][ 39]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.04.20-23.25.29:802][ 39]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.04.20-23.25.29:805][ 39]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.04.20-23.25.29:830][ 39]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.04.20-23.25.29:857][ 39]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.04.20-23.25.29:857][ 39]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.04.20-23.25.29:873][ 39]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.04.20-23.25.29:873][ 39]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.04.20-23.25.29:910][ 39]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.04.20-23.25.29:919][ 39]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.04.20-23.25.29:919][ 39]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.04.20-23.25.29:927][ 39]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.04.20-23.25.29:927][ 39]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.04.20-23.25.29:928][ 39]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.04.20-23.25.29:928][ 39]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.04.20-23.25.29:928][ 39]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.04.20-23.25.29:928][ 39]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.04.20-23.25.29:938][ 39]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.04.20-23.25.29:971][ 39]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.04.20-23.25.29:971][ 39]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.04.20-23.25.29:988][ 39]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.04.20-23.25.30:013][ 39]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.04.20-23.25.30:025][ 39]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.04.20-23.25.30:029][ 39]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.04.20-23.25.30:130][ 39]LogDerivedDataCache: Shutdown
+[2020.04.20-23.25.30:130][ 39]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.04.20-23.25.30:169][ 39]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.04.20-23.25.30:178][ 39]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.04.20-23.25.30:181][ 39]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.04.20-23.25.30:227][ 39]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.04.20-23.25.30:236][ 39]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.04.20-23.25.30:237][ 39]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.04.20-23.25.30:241][ 39]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.04.20-23.25.30:251][ 39]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.04.20-23.25.30:251][ 39]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.04.20-23.25.30:251][ 39]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.04.20-23.25.30:259][ 39]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.04.20-23.25.30:259][ 39]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.04.20-23.25.30:259][ 39]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.04.20-23.25.30:259][ 39]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.04.20-23.25.30:260][ 39]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.04.20-23.25.30:260][ 39]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.04.20-23.25.30:260][ 39]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.04.20-23.25.30:275][ 39]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.04.20-23.25.30:275][ 39]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.04.20-23.25.30:275][ 39]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.04.20-23.25.30:275][ 39]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.04.20-23.25.30:275][ 39]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.04.20-23.25.30:288][ 39]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.04.20-23.25.30:288][ 39]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.04.20-23.25.30:291][ 39]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.04.20-23.25.30:292][ 39]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.04.20-23.25.30:324][ 39]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.04.20-23.25.30:325][ 39]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.04.20-23.25.30:328][ 39]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.04.20-23.25.30:344][ 39]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.04.20-23.25.30:350][ 39]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.04.20-23.25.30:350][ 39]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.04.20-23.25.30:358][ 39]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.04.20-23.25.30:358][ 39]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.04.20-23.25.30:364][ 39]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.04.20-23.25.30:364][ 39]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.04.20-23.25.30:364][ 39]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.04.20-23.25.30:364][ 39]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.04.20-23.25.30:373][ 39]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.04.20-23.25.30:374][ 39]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.04.20-23.25.30:374][ 39]LogHMD: Freeing OpenVRDLLHandle.
+[2020.04.20-23.25.30:374][ 39]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.04.20-23.25.30:378][ 39]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.04.20-23.25.30:378][ 39]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.04.20-23.25.30:378][ 39]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.04.20-23.25.30:378][ 39]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.04.20-23.25.30:390][ 39]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.04.20-23.25.30:418][ 39]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.04.20-23.25.30:479][ 39]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.04.20-23.25.30:479][ 39]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.20-23.25.30:479][ 39]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B006F1412-4618-83A9-FE90-3E9C816990B3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=ee6768d7457c819060d33d9249d49717%7C4cd5fea14e0145689239c427634864f4%7C18dc5832-3388-4e32-988b-5c2edb43a2ac&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.04.20-23.25.30:510][ 39]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.04.20-23.25.30:542][ 39]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.04.20-23.25.30:552][ 39]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.04.20-23.25.30:559][ 39]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.04.20-23.25.30:562][ 39]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.04.20-23.25.30:573][ 39]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.04.20-23.25.30:584][ 39]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.04.20-23.25.30:651][ 39]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.04.20-23.25.30:737][ 39]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.04.20-23.25.30:752][ 39]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.04.20-23.25.30:752][ 39]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.04.20-23.25.30:752][ 39]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.04.20-23.25.30:792][ 39]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.04.20-23.25.30:798][ 39]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.04.20-23.25.30:799][ 39]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.04.20-23.25.30:799][ 39]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.04.20-23.25.30:810][ 39]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.04.20-23.25.30:810][ 39]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.04.20-23.25.30:810][ 39]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.04.20-23.25.30:824][ 39]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.04.20-23.25.30:824][ 39]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.04.20-23.25.30:829][ 39]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.04.20-23.25.30:829][ 39]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.04.20-23.25.30:833][ 39]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.04.20-23.25.30:880][ 39]LogExit: Exiting.
+[2020.04.20-23.25.30:935][ 39]Log file closed, 04/20/20 19:25:30
